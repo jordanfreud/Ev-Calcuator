@@ -1,0 +1,6062 @@
+{
+  "b078df49b4b246be7446b434bca64f28": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T00:52:52.047555+00:00",
+        "away_odds": 1700,
+        "home_odds": -10000
+      }
+    ]
+  },
+  "d10f53a6fb57a00a4e08f7d5fe1d10de": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T00:52:52.050120+00:00",
+        "away_odds": 136,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T00:59:45.867454+00:00",
+        "away_odds": 136,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:03:08.491747+00:00",
+        "away_odds": 136,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:05:49.112305+00:00",
+        "away_odds": 136,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.329443+00:00",
+        "away_odds": 136,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.617234+00:00",
+        "away_odds": 136,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.639467+00:00",
+        "away_odds": 136,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.658502+00:00",
+        "away_odds": 136,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.681165+00:00",
+        "away_odds": 136,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.773350+00:00",
+        "away_odds": 136,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.365558+00:00",
+        "away_odds": 136,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.509581+00:00",
+        "away_odds": 136,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.698660+00:00",
+        "away_odds": 136,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.684507+00:00",
+        "away_odds": 136,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.842460+00:00",
+        "away_odds": 136,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.981158+00:00",
+        "away_odds": 136,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.185917+00:00",
+        "away_odds": 136,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.074566+00:00",
+        "away_odds": 136,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.546438+00:00",
+        "away_odds": 136,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.808486+00:00",
+        "away_odds": 142,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.233535+00:00",
+        "away_odds": 142,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.677529+00:00",
+        "away_odds": 142,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.060162+00:00",
+        "away_odds": 142,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.145476+00:00",
+        "away_odds": 142,
+        "home_odds": -168
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T00:52:52.050818+00:00",
+        "away_odds": 149,
+        "home_odds": -165
+      },
+      {
+        "timestamp": "2026-04-13T00:59:45.867954+00:00",
+        "away_odds": 149,
+        "home_odds": -165
+      },
+      {
+        "timestamp": "2026-04-13T01:03:08.492424+00:00",
+        "away_odds": 149,
+        "home_odds": -165
+      },
+      {
+        "timestamp": "2026-04-13T01:05:49.112987+00:00",
+        "away_odds": 149,
+        "home_odds": -165
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.330652+00:00",
+        "away_odds": 149,
+        "home_odds": -165
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.621182+00:00",
+        "away_odds": 149,
+        "home_odds": -165
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.641160+00:00",
+        "away_odds": 149,
+        "home_odds": -165
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.660562+00:00",
+        "away_odds": 149,
+        "home_odds": -165
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.683584+00:00",
+        "away_odds": 149,
+        "home_odds": -165
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.776397+00:00",
+        "away_odds": 149,
+        "home_odds": -165
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.368709+00:00",
+        "away_odds": 149,
+        "home_odds": -165
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.513129+00:00",
+        "away_odds": 154,
+        "home_odds": -170
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.702578+00:00",
+        "away_odds": 154,
+        "home_odds": -170
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.688429+00:00",
+        "away_odds": 154,
+        "home_odds": -170
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.846858+00:00",
+        "away_odds": 154,
+        "home_odds": -170
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.985966+00:00",
+        "away_odds": 154,
+        "home_odds": -170
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.190969+00:00",
+        "away_odds": 154,
+        "home_odds": -170
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.079959+00:00",
+        "away_odds": 154,
+        "home_odds": -170
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.552345+00:00",
+        "away_odds": 154,
+        "home_odds": -170
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.815028+00:00",
+        "away_odds": 148,
+        "home_odds": -164
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.240280+00:00",
+        "away_odds": 148,
+        "home_odds": -164
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.684517+00:00",
+        "away_odds": 148,
+        "home_odds": -164
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.067572+00:00",
+        "away_odds": 148,
+        "home_odds": -164
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.153447+00:00",
+        "away_odds": 148,
+        "home_odds": -164
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T00:52:52.051159+00:00",
+        "away_odds": 144,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T00:59:45.868362+00:00",
+        "away_odds": 144,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T01:03:08.493013+00:00",
+        "away_odds": 144,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T01:05:49.113621+00:00",
+        "away_odds": 144,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.331833+00:00",
+        "away_odds": 144,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.624250+00:00",
+        "away_odds": 144,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.642840+00:00",
+        "away_odds": 144,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.662668+00:00",
+        "away_odds": 144,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.685996+00:00",
+        "away_odds": 144,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.779266+00:00",
+        "away_odds": 144,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.371814+00:00",
+        "away_odds": 144,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.516889+00:00",
+        "away_odds": 144,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.706460+00:00",
+        "away_odds": 144,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.692344+00:00",
+        "away_odds": 144,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.851167+00:00",
+        "away_odds": 144,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.990658+00:00",
+        "away_odds": 144,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.195937+00:00",
+        "away_odds": 144,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.085177+00:00",
+        "away_odds": 144,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.557922+00:00",
+        "away_odds": 144,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.820917+00:00",
+        "away_odds": 141,
+        "home_odds": -171
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.246484+00:00",
+        "away_odds": 141,
+        "home_odds": -171
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.693257+00:00",
+        "away_odds": 141,
+        "home_odds": -171
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.074909+00:00",
+        "away_odds": 141,
+        "home_odds": -171
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.161030+00:00",
+        "away_odds": 141,
+        "home_odds": -171
+      }
+    ]
+  },
+  "8c4fafe262a5424f243a130d7ab60e82": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:05:49.097141+00:00",
+        "away_odds": -390,
+        "home_odds": 280
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.303103+00:00",
+        "away_odds": -360,
+        "home_odds": 260
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.538938+00:00",
+        "away_odds": -295,
+        "home_odds": 220
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.596953+00:00",
+        "away_odds": -330,
+        "home_odds": 250
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.606202+00:00",
+        "away_odds": -260,
+        "home_odds": 196
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.620649+00:00",
+        "away_odds": -260,
+        "home_odds": 196
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.695323+00:00",
+        "away_odds": -390,
+        "home_odds": 280
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.285077+00:00",
+        "away_odds": -360,
+        "home_odds": 260
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.418846+00:00",
+        "away_odds": -400,
+        "home_odds": 285
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.612188+00:00",
+        "away_odds": -400,
+        "home_odds": 285
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.578674+00:00",
+        "away_odds": -400,
+        "home_odds": 285
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.739599+00:00",
+        "away_odds": -620,
+        "home_odds": 400
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.887161+00:00",
+        "away_odds": -950,
+        "home_odds": 540
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.083239+00:00",
+        "away_odds": -650,
+        "home_odds": 420
+      },
+      {
+        "timestamp": "2026-04-13T01:26:25.956085+00:00",
+        "away_odds": -400,
+        "home_odds": 285
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.421504+00:00",
+        "away_odds": -330,
+        "home_odds": 240
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:05:49.097737+00:00",
+        "away_odds": -270,
+        "home_odds": 200
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.304195+00:00",
+        "away_odds": -260,
+        "home_odds": 195
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.541093+00:00",
+        "away_odds": -260,
+        "home_odds": 195
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.598806+00:00",
+        "away_odds": -210,
+        "home_odds": 160
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.608360+00:00",
+        "away_odds": -215,
+        "home_odds": 165
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.623264+00:00",
+        "away_odds": -215,
+        "home_odds": 165
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.699442+00:00",
+        "away_odds": -315,
+        "home_odds": 230
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.288189+00:00",
+        "away_odds": -345,
+        "home_odds": 250
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.422594+00:00",
+        "away_odds": -445,
+        "home_odds": 310
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.616409+00:00",
+        "away_odds": -445,
+        "home_odds": 310
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.583049+00:00",
+        "away_odds": -540,
+        "home_odds": 360
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.744173+00:00",
+        "away_odds": -720,
+        "home_odds": 450
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.891954+00:00",
+        "away_odds": -850,
+        "home_odds": 520
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.088338+00:00",
+        "away_odds": -850,
+        "home_odds": 520
+      },
+      {
+        "timestamp": "2026-04-13T01:26:25.962396+00:00",
+        "away_odds": -425,
+        "home_odds": 300
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.428294+00:00",
+        "away_odds": -375,
+        "home_odds": 270
+      }
+    ]
+  },
+  "c8cde1aa908581185caf0bb87659055a": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:05:49.098595+00:00",
+        "away_odds": 400,
+        "home_odds": -620
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.305248+00:00",
+        "away_odds": 350,
+        "home_odds": -520
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.542850+00:00",
+        "away_odds": 440,
+        "home_odds": -700
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.600372+00:00",
+        "away_odds": 420,
+        "home_odds": -650
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.610278+00:00",
+        "away_odds": 420,
+        "home_odds": -650
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.625516+00:00",
+        "away_odds": 450,
+        "home_odds": -720
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.702418+00:00",
+        "away_odds": 680,
+        "home_odds": -1400
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.291094+00:00",
+        "away_odds": 560,
+        "home_odds": -1000
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.425989+00:00",
+        "away_odds": 420,
+        "home_odds": -650
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.620828+00:00",
+        "away_odds": 420,
+        "home_odds": -650
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.587136+00:00",
+        "away_odds": 420,
+        "home_odds": -650
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.748343+00:00",
+        "away_odds": 370,
+        "home_odds": -560
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.897395+00:00",
+        "away_odds": 750,
+        "home_odds": -1600
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.094045+00:00",
+        "away_odds": 750,
+        "home_odds": -1600
+      },
+      {
+        "timestamp": "2026-04-13T01:26:25.968409+00:00",
+        "away_odds": 900,
+        "home_odds": -2500
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.434752+00:00",
+        "away_odds": 1200,
+        "home_odds": -4500
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:05:49.099047+00:00",
+        "away_odds": 340,
+        "home_odds": -500
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.306177+00:00",
+        "away_odds": 300,
+        "home_odds": -425
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.545751+00:00",
+        "away_odds": 325,
+        "home_odds": -475
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.601970+00:00",
+        "away_odds": 350,
+        "home_odds": -520
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.612168+00:00",
+        "away_odds": 350,
+        "home_odds": -520
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.627734+00:00",
+        "away_odds": 350,
+        "home_odds": -520
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.705127+00:00",
+        "away_odds": 500,
+        "home_odds": -810
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.293965+00:00",
+        "away_odds": 550,
+        "home_odds": -920
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.429239+00:00",
+        "away_odds": 450,
+        "home_odds": -720
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.624591+00:00",
+        "away_odds": 450,
+        "home_odds": -720
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.591002+00:00",
+        "away_odds": 470,
+        "home_odds": -750
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.752568+00:00",
+        "away_odds": 650,
+        "home_odds": -1150
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.902446+00:00",
+        "away_odds": 700,
+        "home_odds": -1300
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.100676+00:00",
+        "away_odds": 700,
+        "home_odds": -1300
+      },
+      {
+        "timestamp": "2026-04-13T01:26:25.973582+00:00",
+        "away_odds": 1000,
+        "home_odds": -2100
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.440401+00:00",
+        "away_odds": 1400,
+        "home_odds": -3500
+      }
+    ]
+  },
+  "fdd561cce076bab5eb0f0651d1d0f8e4": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:05:49.099824+00:00",
+        "away_odds": 630,
+        "home_odds": -1200
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.307100+00:00",
+        "away_odds": 750,
+        "home_odds": -1600
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.548497+00:00",
+        "away_odds": 800,
+        "home_odds": -1800
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.603575+00:00",
+        "away_odds": 680,
+        "home_odds": -1400
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.614155+00:00",
+        "away_odds": 830,
+        "home_odds": -2000
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.630094+00:00",
+        "away_odds": 900,
+        "home_odds": -2500
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.707863+00:00",
+        "away_odds": 870,
+        "home_odds": -2200
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.296992+00:00",
+        "away_odds": 800,
+        "home_odds": -1800
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.432820+00:00",
+        "away_odds": 830,
+        "home_odds": -2000
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.628844+00:00",
+        "away_odds": 830,
+        "home_odds": -2000
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.594919+00:00",
+        "away_odds": 830,
+        "home_odds": -2000
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.756707+00:00",
+        "away_odds": 900,
+        "home_odds": -2500
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.907877+00:00",
+        "away_odds": 1000,
+        "home_odds": -3000
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.106308+00:00",
+        "away_odds": 1200,
+        "home_odds": -5000
+      },
+      {
+        "timestamp": "2026-04-13T01:26:25.980141+00:00",
+        "away_odds": 1700,
+        "home_odds": -10000
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.446838+00:00",
+        "away_odds": 1700,
+        "home_odds": -10000
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:05:49.100301+00:00",
+        "away_odds": 950,
+        "home_odds": -1950
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.307987+00:00",
+        "away_odds": 1000,
+        "home_odds": -2100
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.551446+00:00",
+        "away_odds": 1000,
+        "home_odds": -2100
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.605164+00:00",
+        "away_odds": 650,
+        "home_odds": -1150
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.616134+00:00",
+        "away_odds": 1000,
+        "home_odds": -2100
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.632287+00:00",
+        "away_odds": 1000,
+        "home_odds": -2100
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.710700+00:00",
+        "away_odds": 1200,
+        "home_odds": -2800
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.300611+00:00",
+        "away_odds": 1000,
+        "home_odds": -2100
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.436199+00:00",
+        "away_odds": 1300,
+        "home_odds": -3200
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.632695+00:00",
+        "away_odds": 1300,
+        "home_odds": -3200
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.598836+00:00",
+        "away_odds": 1200,
+        "home_odds": -2800
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.760750+00:00",
+        "away_odds": 1200,
+        "home_odds": -2800
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.913265+00:00",
+        "away_odds": 1800,
+        "home_odds": -6500
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.111181+00:00",
+        "away_odds": 1800,
+        "home_odds": -6500
+      },
+      {
+        "timestamp": "2026-04-13T01:26:25.985285+00:00",
+        "away_odds": 3500,
+        "home_odds": -50000
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.452375+00:00",
+        "away_odds": 3500,
+        "home_odds": -50000
+      }
+    ]
+  },
+  "3f3bec3a69985062b105b5fe8bf06fe9": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:05:49.101171+00:00",
+        "away_odds": 1200,
+        "home_odds": -4500
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.308931+00:00",
+        "away_odds": 1300,
+        "home_odds": -5000
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.554362+00:00",
+        "away_odds": 1100,
+        "home_odds": -4000
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.606651+00:00",
+        "away_odds": 900,
+        "home_odds": -2500
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.618055+00:00",
+        "away_odds": 1060,
+        "home_odds": -3500
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.634491+00:00",
+        "away_odds": 900,
+        "home_odds": -2500
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.713464+00:00",
+        "away_odds": 900,
+        "home_odds": -2500
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.303528+00:00",
+        "away_odds": 750,
+        "home_odds": -1600
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.439513+00:00",
+        "away_odds": 1000,
+        "home_odds": -3000
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.637119+00:00",
+        "away_odds": 1000,
+        "home_odds": -3000
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.602728+00:00",
+        "away_odds": 1000,
+        "home_odds": -3000
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.764859+00:00",
+        "away_odds": 870,
+        "home_odds": -2500
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.918752+00:00",
+        "away_odds": 1000,
+        "home_odds": -3000
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.117526+00:00",
+        "away_odds": 1000,
+        "home_odds": -3000
+      },
+      {
+        "timestamp": "2026-04-13T01:26:25.991037+00:00",
+        "away_odds": 1000,
+        "home_odds": -3000
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.458748+00:00",
+        "away_odds": 1300,
+        "home_odds": -5000
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:05:49.101682+00:00",
+        "away_odds": 1500,
+        "home_odds": -4000
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.309919+00:00",
+        "away_odds": 1600,
+        "home_odds": -4800
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.557381+00:00",
+        "away_odds": 1500,
+        "home_odds": -4000
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.608151+00:00",
+        "away_odds": 1100,
+        "home_odds": -2500
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.619989+00:00",
+        "away_odds": 1300,
+        "home_odds": -3200
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.636691+00:00",
+        "away_odds": 1300,
+        "home_odds": -3200
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.717017+00:00",
+        "away_odds": 1300,
+        "home_odds": -3200
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.306408+00:00",
+        "away_odds": 1100,
+        "home_odds": -2500
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.442826+00:00",
+        "away_odds": 1200,
+        "home_odds": -2800
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.640919+00:00",
+        "away_odds": 1200,
+        "home_odds": -2800
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.606625+00:00",
+        "away_odds": 1200,
+        "home_odds": -2800
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.769023+00:00",
+        "away_odds": 1300,
+        "home_odds": -3200
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.923367+00:00",
+        "away_odds": 1400,
+        "home_odds": -3500
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.122884+00:00",
+        "away_odds": 1400,
+        "home_odds": -3500
+      },
+      {
+        "timestamp": "2026-04-13T01:26:25.996860+00:00",
+        "away_odds": 1200,
+        "home_odds": -2800
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.464261+00:00",
+        "away_odds": 1600,
+        "home_odds": -4800
+      }
+    ]
+  },
+  "09604d4c311c1eb2215317d12154f42a": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:05:49.102879+00:00",
+        "away_odds": 190,
+        "home_odds": -250
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.310892+00:00",
+        "away_odds": 164,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.560489+00:00",
+        "away_odds": 164,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.609730+00:00",
+        "away_odds": 186,
+        "home_odds": -245
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.621914+00:00",
+        "away_odds": 168,
+        "home_odds": -220
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.638950+00:00",
+        "away_odds": 190,
+        "home_odds": -250
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.719873+00:00",
+        "away_odds": 172,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.309453+00:00",
+        "away_odds": 172,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.446181+00:00",
+        "away_odds": 172,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.645304+00:00",
+        "away_odds": 172,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.610627+00:00",
+        "away_odds": 172,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.773180+00:00",
+        "away_odds": 182,
+        "home_odds": -240
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.928681+00:00",
+        "away_odds": 118,
+        "home_odds": -150
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.128540+00:00",
+        "away_odds": 112,
+        "home_odds": -142
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.003643+00:00",
+        "away_odds": -125,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.470514+00:00",
+        "away_odds": -136,
+        "home_odds": 106
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:05:49.103423+00:00",
+        "away_odds": 175,
+        "home_odds": -230
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.311827+00:00",
+        "away_odds": 150,
+        "home_odds": -195
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.563426+00:00",
+        "away_odds": 150,
+        "home_odds": -195
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.611294+00:00",
+        "away_odds": 154,
+        "home_odds": -200
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.623841+00:00",
+        "away_odds": 145,
+        "home_odds": -188
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.641176+00:00",
+        "away_odds": 145,
+        "home_odds": -188
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.722720+00:00",
+        "away_odds": 145,
+        "home_odds": -188
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.312547+00:00",
+        "away_odds": 145,
+        "home_odds": -188
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.449663+00:00",
+        "away_odds": 150,
+        "home_odds": -195
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.649211+00:00",
+        "away_odds": 150,
+        "home_odds": -195
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.615135+00:00",
+        "away_odds": 170,
+        "home_odds": -220
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.777411+00:00",
+        "away_odds": 180,
+        "home_odds": -238
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.933305+00:00",
+        "away_odds": -105,
+        "home_odds": -125
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.133525+00:00",
+        "away_odds": -105,
+        "home_odds": -125
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.009004+00:00",
+        "away_odds": -154,
+        "home_odds": 120
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.476146+00:00",
+        "away_odds": -135,
+        "home_odds": 105
+      }
+    ]
+  },
+  "06ccc7d0ba2acaf031c7d42eea09672c": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:05:49.104377+00:00",
+        "away_odds": 138,
+        "home_odds": -178
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.312767+00:00",
+        "away_odds": 136,
+        "home_odds": -174
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.567727+00:00",
+        "away_odds": 118,
+        "home_odds": -150
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.612855+00:00",
+        "away_odds": 102,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.625754+00:00",
+        "away_odds": 102,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.643434+00:00",
+        "away_odds": 102,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.725555+00:00",
+        "away_odds": 126,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.315543+00:00",
+        "away_odds": 164,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.453161+00:00",
+        "away_odds": 168,
+        "home_odds": -220
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.654272+00:00",
+        "away_odds": 168,
+        "home_odds": -220
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.619253+00:00",
+        "away_odds": 168,
+        "home_odds": -220
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.781761+00:00",
+        "away_odds": 150,
+        "home_odds": -194
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.938585+00:00",
+        "away_odds": 152,
+        "home_odds": -196
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.139389+00:00",
+        "away_odds": 152,
+        "home_odds": -196
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.016028+00:00",
+        "away_odds": 255,
+        "home_odds": -350
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.483123+00:00",
+        "away_odds": 190,
+        "home_odds": -250
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:05:49.104932+00:00",
+        "away_odds": 130,
+        "home_odds": -166
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.313725+00:00",
+        "away_odds": 140,
+        "home_odds": -180
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.570623+00:00",
+        "away_odds": 105,
+        "home_odds": -135
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.614460+00:00",
+        "away_odds": 110,
+        "home_odds": -140
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.627714+00:00",
+        "away_odds": 110,
+        "home_odds": -140
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.645673+00:00",
+        "away_odds": 110,
+        "home_odds": -140
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.728344+00:00",
+        "away_odds": 124,
+        "home_odds": -160
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.318498+00:00",
+        "away_odds": 160,
+        "home_odds": -210
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.456448+00:00",
+        "away_odds": 150,
+        "home_odds": -195
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.658278+00:00",
+        "away_odds": 150,
+        "home_odds": -195
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.623413+00:00",
+        "away_odds": 150,
+        "home_odds": -195
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.785946+00:00",
+        "away_odds": 154,
+        "home_odds": -200
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.943202+00:00",
+        "away_odds": 135,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.144433+00:00",
+        "away_odds": 135,
+        "home_odds": -175
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.021261+00:00",
+        "away_odds": 195,
+        "home_odds": -260
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.488714+00:00",
+        "away_odds": 170,
+        "home_odds": -220
+      }
+    ]
+  },
+  "47ede7b5685ae38218b5c2ea1ffd1699": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:05:49.105899+00:00",
+        "away_odds": 186,
+        "home_odds": -245
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.314838+00:00",
+        "away_odds": 240,
+        "home_odds": -330
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.573682+00:00",
+        "away_odds": 250,
+        "home_odds": -340
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.616082+00:00",
+        "away_odds": 280,
+        "home_odds": -390
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.629672+00:00",
+        "away_odds": 285,
+        "home_odds": -400
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.647962+00:00",
+        "away_odds": 285,
+        "home_odds": -400
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.731203+00:00",
+        "away_odds": 285,
+        "home_odds": -400
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.321410+00:00",
+        "away_odds": 255,
+        "home_odds": -350
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.459784+00:00",
+        "away_odds": 250,
+        "home_odds": -340
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.662705+00:00",
+        "away_odds": 250,
+        "home_odds": -340
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.627418+00:00",
+        "away_odds": 240,
+        "home_odds": -330
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.790119+00:00",
+        "away_odds": 230,
+        "home_odds": -310
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.948806+00:00",
+        "away_odds": 220,
+        "home_odds": -295
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.150745+00:00",
+        "away_odds": 265,
+        "home_odds": -370
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.027822+00:00",
+        "away_odds": 180,
+        "home_odds": -235
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.494914+00:00",
+        "away_odds": 280,
+        "home_odds": -390
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:05:49.106511+00:00",
+        "away_odds": 145,
+        "home_odds": -188
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.315895+00:00",
+        "away_odds": 220,
+        "home_odds": -298
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.576786+00:00",
+        "away_odds": 220,
+        "home_odds": -298
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.617739+00:00",
+        "away_odds": 280,
+        "home_odds": -395
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.631672+00:00",
+        "away_odds": 260,
+        "home_odds": -360
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.650214+00:00",
+        "away_odds": 260,
+        "home_odds": -360
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.734974+00:00",
+        "away_odds": 260,
+        "home_odds": -360
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.324393+00:00",
+        "away_odds": 230,
+        "home_odds": -315
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.463109+00:00",
+        "away_odds": 220,
+        "home_odds": -298
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.667630+00:00",
+        "away_odds": 220,
+        "home_odds": -298
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.631610+00:00",
+        "away_odds": 220,
+        "home_odds": -298
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.794273+00:00",
+        "away_odds": 230,
+        "home_odds": -315
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.953952+00:00",
+        "away_odds": 270,
+        "home_odds": -375
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.156457+00:00",
+        "away_odds": 270,
+        "home_odds": -375
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.033054+00:00",
+        "away_odds": 210,
+        "home_odds": -280
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.500371+00:00",
+        "away_odds": 300,
+        "home_odds": -425
+      }
+    ]
+  },
+  "3f5adb3e93b0c63eb14ed1d0e8b90a43": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:05:49.107424+00:00",
+        "away_odds": 900,
+        "home_odds": -2500
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.316916+00:00",
+        "away_odds": 750,
+        "home_odds": -1600
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.579803+00:00",
+        "away_odds": 900,
+        "home_odds": -2500
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.619379+00:00",
+        "away_odds": 870,
+        "home_odds": -2200
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.633600+00:00",
+        "away_odds": 870,
+        "home_odds": -2200
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.652508+00:00",
+        "away_odds": 870,
+        "home_odds": -2200
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.737885+00:00",
+        "away_odds": 830,
+        "home_odds": -2000
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.327389+00:00",
+        "away_odds": 900,
+        "home_odds": -3000
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.466773+00:00",
+        "away_odds": 1060,
+        "home_odds": -3500
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.672301+00:00",
+        "away_odds": 1060,
+        "home_odds": -3500
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.635800+00:00",
+        "away_odds": 1060,
+        "home_odds": -3500
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.798515+00:00",
+        "away_odds": 1000,
+        "home_odds": -3000
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.959298+00:00",
+        "away_odds": 1400,
+        "home_odds": -6000
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.162132+00:00",
+        "away_odds": 1300,
+        "home_odds": -5000
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.038977+00:00",
+        "away_odds": 1500,
+        "home_odds": -7000
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.507147+00:00",
+        "away_odds": 1700,
+        "home_odds": -10000
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:05:49.108007+00:00",
+        "away_odds": 750,
+        "home_odds": -1450
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.318097+00:00",
+        "away_odds": 1000,
+        "home_odds": -2100
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.582795+00:00",
+        "away_odds": 1000,
+        "home_odds": -2100
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.621083+00:00",
+        "away_odds": 850,
+        "home_odds": -1750
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.635678+00:00",
+        "away_odds": 750,
+        "home_odds": -1450
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.654779+00:00",
+        "away_odds": 750,
+        "home_odds": -1450
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.740628+00:00",
+        "away_odds": 1000,
+        "home_odds": -2100
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.330433+00:00",
+        "away_odds": 1100,
+        "home_odds": -2500
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.470253+00:00",
+        "away_odds": 1100,
+        "home_odds": -2500
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.676112+00:00",
+        "away_odds": 1100,
+        "home_odds": -2500
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.639760+00:00",
+        "away_odds": 1100,
+        "home_odds": -2500
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.802804+00:00",
+        "away_odds": 1100,
+        "home_odds": -2500
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.964429+00:00",
+        "away_odds": 1800,
+        "home_odds": -6500
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.167831+00:00",
+        "away_odds": 1800,
+        "home_odds": -6500
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.045064+00:00",
+        "away_odds": 2200,
+        "home_odds": -10000
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.513876+00:00",
+        "away_odds": 3500,
+        "home_odds": -50000
+      }
+    ]
+  },
+  "77fc0797ec86af0045233c0b4b1d2976": {
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:05:49.109072+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.320141+00:00",
+        "away_odds": -108,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.589424+00:00",
+        "away_odds": -108,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.624348+00:00",
+        "away_odds": -108,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.639756+00:00",
+        "away_odds": -108,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.659329+00:00",
+        "away_odds": -108,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.746445+00:00",
+        "away_odds": -108,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.336510+00:00",
+        "away_odds": -108,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.477157+00:00",
+        "away_odds": -108,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.680497+00:00",
+        "away_odds": -108,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.648462+00:00",
+        "away_odds": -108,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.811425+00:00",
+        "away_odds": -108,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.969827+00:00",
+        "away_odds": -108,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.173426+00:00",
+        "away_odds": -108,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.051575+00:00",
+        "away_odds": -108,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.520585+00:00",
+        "away_odds": -108,
+        "home_odds": -112
+      }
+    ],
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:05:49.109693+00:00",
+        "away_odds": -116,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.321120+00:00",
+        "away_odds": -116,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.592349+00:00",
+        "away_odds": -116,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.625967+00:00",
+        "away_odds": -116,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.641834+00:00",
+        "away_odds": -116,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.661637+00:00",
+        "away_odds": -116,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.749577+00:00",
+        "away_odds": -116,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.339623+00:00",
+        "away_odds": -116,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.480580+00:00",
+        "away_odds": -116,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.684993+00:00",
+        "away_odds": -116,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.652370+00:00",
+        "away_odds": -116,
+        "home_odds": -102
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T01:26:26.056990+00:00",
+        "away_odds": 100,
+        "home_odds": -120
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.526938+00:00",
+        "away_odds": 100,
+        "home_odds": -120
+      }
+    ]
+  },
+  "48d7cc894162372714ad016109df0e73": {
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:05:49.110685+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.323180+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.598468+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.629218+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.646097+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.666780+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.755269+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.346109+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.487751+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.689480+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.660451+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.820338+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.975395+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.179365+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.063162+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.534186+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      }
+    ],
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:05:49.111307+00:00",
+        "away_odds": 180,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.324213+00:00",
+        "away_odds": 180,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.602060+00:00",
+        "away_odds": 180,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.630824+00:00",
+        "away_odds": 180,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.648174+00:00",
+        "away_odds": 180,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.669170+00:00",
+        "away_odds": 180,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.758185+00:00",
+        "away_odds": 180,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.350011+00:00",
+        "away_odds": 180,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.491178+00:00",
+        "away_odds": 180,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.693286+00:00",
+        "away_odds": 180,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.664526+00:00",
+        "away_odds": 180,
+        "home_odds": -215
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T01:26:26.068477+00:00",
+        "away_odds": 177,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.539933+00:00",
+        "away_odds": 177,
+        "home_odds": -205
+      }
+    ]
+  },
+  "dcb7f3b019ab5e225b354b9e8c2b291e": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:05:49.114614+00:00",
+        "away_odds": 160,
+        "home_odds": -190
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.333039+00:00",
+        "away_odds": 160,
+        "home_odds": -190
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.627252+00:00",
+        "away_odds": 160,
+        "home_odds": -190
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.644530+00:00",
+        "away_odds": 160,
+        "home_odds": -190
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.664797+00:00",
+        "away_odds": 160,
+        "home_odds": -190
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.688382+00:00",
+        "away_odds": 160,
+        "home_odds": -190
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.782972+00:00",
+        "away_odds": 160,
+        "home_odds": -190
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.374823+00:00",
+        "away_odds": 160,
+        "home_odds": -190
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.520531+00:00",
+        "away_odds": 160,
+        "home_odds": -190
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.710971+00:00",
+        "away_odds": 160,
+        "home_odds": -190
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.696352+00:00",
+        "away_odds": 160,
+        "home_odds": -190
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.855419+00:00",
+        "away_odds": 160,
+        "home_odds": -190
+      },
+      {
+        "timestamp": "2026-04-13T01:21:08.996827+00:00",
+        "away_odds": 160,
+        "home_odds": -190
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.202050+00:00",
+        "away_odds": 160,
+        "home_odds": -190
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.091129+00:00",
+        "away_odds": 160,
+        "home_odds": -190
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.576961+00:00",
+        "away_odds": 160,
+        "home_odds": -190
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.850177+00:00",
+        "away_odds": 154,
+        "home_odds": -184
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.275482+00:00",
+        "away_odds": 154,
+        "home_odds": -184
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.723202+00:00",
+        "away_odds": 154,
+        "home_odds": -184
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.107429+00:00",
+        "away_odds": 154,
+        "home_odds": -184
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.194075+00:00",
+        "away_odds": 154,
+        "home_odds": -184
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T01:05:49.115264+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.335149+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.630267+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.646235+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.666876+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.690816+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.785991+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.377941+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.524188+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.715001+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.700370+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.859580+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.001614+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.207064+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.096537+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.582702+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.856578+00:00",
+        "away_odds": 152,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.281660+00:00",
+        "away_odds": 152,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.730073+00:00",
+        "away_odds": 152,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.114927+00:00",
+        "away_odds": 152,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.202306+00:00",
+        "away_odds": 152,
+        "home_odds": -168
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:05:49.115909+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.336347+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.633299+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.647927+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.668974+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.693238+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.788922+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.381310+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.527845+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.718841+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.704326+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.863756+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.006450+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.212024+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.102845+00:00",
+        "away_odds": 153,
+        "home_odds": -186
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.588251+00:00",
+        "away_odds": 153,
+        "home_odds": -186
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.862713+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.288420+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.737236+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.122758+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.209688+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      }
+    ]
+  },
+  "df0e15c1b18c2572248e1e6fa22b5271": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:05:49.116964+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.337531+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.636428+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.649821+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.671080+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.695902+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.791761+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.384548+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.531557+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.723360+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.708295+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.868108+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.011912+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.217875+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.108765+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.594646+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.869678+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.295499+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.746231+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.131096+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.218396+00:00",
+        "away_odds": 188,
+        "home_odds": -225
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T01:05:49.117660+00:00",
+        "away_odds": 195,
+        "home_odds": -218
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.338675+00:00",
+        "away_odds": 195,
+        "home_odds": -218
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.639512+00:00",
+        "away_odds": 195,
+        "home_odds": -218
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.651615+00:00",
+        "away_odds": 195,
+        "home_odds": -218
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.673182+00:00",
+        "away_odds": 195,
+        "home_odds": -218
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.698432+00:00",
+        "away_odds": 195,
+        "home_odds": -218
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.794716+00:00",
+        "away_odds": 195,
+        "home_odds": -218
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.387869+00:00",
+        "away_odds": 195,
+        "home_odds": -218
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.535211+00:00",
+        "away_odds": 195,
+        "home_odds": -218
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.727201+00:00",
+        "away_odds": 195,
+        "home_odds": -218
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.712530+00:00",
+        "away_odds": 195,
+        "home_odds": -218
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.872632+00:00",
+        "away_odds": 195,
+        "home_odds": -218
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.017002+00:00",
+        "away_odds": 195,
+        "home_odds": -218
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.222942+00:00",
+        "away_odds": 195,
+        "home_odds": -218
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.114682+00:00",
+        "away_odds": 195,
+        "home_odds": -218
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.600287+00:00",
+        "away_odds": 195,
+        "home_odds": -218
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.876589+00:00",
+        "away_odds": 190,
+        "home_odds": -212
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.301759+00:00",
+        "away_odds": 190,
+        "home_odds": -212
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.753315+00:00",
+        "away_odds": 190,
+        "home_odds": -212
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.139456+00:00",
+        "away_odds": 190,
+        "home_odds": -212
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.226011+00:00",
+        "away_odds": 190,
+        "home_odds": -212
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:05:49.118342+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.339863+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.642590+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.653363+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.675287+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.701069+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.797612+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.391171+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.538719+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.731708+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.716867+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.876936+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.021752+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.228037+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.120070+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.605886+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.882806+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.309012+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.760261+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.146882+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.234087+00:00",
+        "away_odds": 184,
+        "home_odds": -226
+      }
+    ]
+  },
+  "41cfc5f9fbe204005b41506b477dbe2a": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:05:49.119422+00:00",
+        "away_odds": 150,
+        "home_odds": -178
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.341054+00:00",
+        "away_odds": 150,
+        "home_odds": -178
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.645667+00:00",
+        "away_odds": 150,
+        "home_odds": -178
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.655120+00:00",
+        "away_odds": 150,
+        "home_odds": -178
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.677428+00:00",
+        "away_odds": 150,
+        "home_odds": -178
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.703650+00:00",
+        "away_odds": 150,
+        "home_odds": -178
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.801539+00:00",
+        "away_odds": 150,
+        "home_odds": -178
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.394336+00:00",
+        "away_odds": 150,
+        "home_odds": -178
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.542191+00:00",
+        "away_odds": 150,
+        "home_odds": -178
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.736183+00:00",
+        "away_odds": 150,
+        "home_odds": -178
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.720968+00:00",
+        "away_odds": 150,
+        "home_odds": -178
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.881239+00:00",
+        "away_odds": 150,
+        "home_odds": -178
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.027228+00:00",
+        "away_odds": 150,
+        "home_odds": -178
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.234039+00:00",
+        "away_odds": 150,
+        "home_odds": -178
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.126117+00:00",
+        "away_odds": 150,
+        "home_odds": -178
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.612284+00:00",
+        "away_odds": 150,
+        "home_odds": -178
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.890208+00:00",
+        "away_odds": 164,
+        "home_odds": -196
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.316747+00:00",
+        "away_odds": 164,
+        "home_odds": -196
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.768153+00:00",
+        "away_odds": 164,
+        "home_odds": -196
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.155457+00:00",
+        "away_odds": 164,
+        "home_odds": -196
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.242730+00:00",
+        "away_odds": 164,
+        "home_odds": -196
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T01:05:49.120177+00:00",
+        "away_odds": 155,
+        "home_odds": -172
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.342269+00:00",
+        "away_odds": 155,
+        "home_odds": -172
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.648752+00:00",
+        "away_odds": 155,
+        "home_odds": -172
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.656941+00:00",
+        "away_odds": 155,
+        "home_odds": -172
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.679529+00:00",
+        "away_odds": 155,
+        "home_odds": -172
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.706130+00:00",
+        "away_odds": 155,
+        "home_odds": -172
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.804780+00:00",
+        "away_odds": 155,
+        "home_odds": -172
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.397513+00:00",
+        "away_odds": 155,
+        "home_odds": -172
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.545722+00:00",
+        "away_odds": 155,
+        "home_odds": -172
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.740013+00:00",
+        "away_odds": 155,
+        "home_odds": -172
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.724922+00:00",
+        "away_odds": 155,
+        "home_odds": -172
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.885505+00:00",
+        "away_odds": 155,
+        "home_odds": -172
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.032001+00:00",
+        "away_odds": 155,
+        "home_odds": -172
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.239146+00:00",
+        "away_odds": 155,
+        "home_odds": -172
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.132954+00:00",
+        "away_odds": 155,
+        "home_odds": -172
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.617847+00:00",
+        "away_odds": 155,
+        "home_odds": -172
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.896708+00:00",
+        "away_odds": 164,
+        "home_odds": -182
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.323663+00:00",
+        "away_odds": 164,
+        "home_odds": -182
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.775205+00:00",
+        "away_odds": 164,
+        "home_odds": -182
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.162736+00:00",
+        "away_odds": 164,
+        "home_odds": -182
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.250416+00:00",
+        "away_odds": 164,
+        "home_odds": -182
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:05:49.120975+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.343560+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.652409+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.658664+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.681660+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.708611+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.808211+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.400854+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.549446+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.743808+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.728954+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.889727+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.036542+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.244134+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.138227+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.623355+00:00",
+        "away_odds": 149,
+        "home_odds": -181
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.902955+00:00",
+        "away_odds": 159,
+        "home_odds": -194
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.330745+00:00",
+        "away_odds": 159,
+        "home_odds": -194
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.782192+00:00",
+        "away_odds": 159,
+        "home_odds": -194
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.170188+00:00",
+        "away_odds": 159,
+        "home_odds": -194
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.258616+00:00",
+        "away_odds": 159,
+        "home_odds": -194
+      }
+    ]
+  },
+  "eb7b6453caa8162c84f45e9a1f779847": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:05:49.122137+00:00",
+        "away_odds": 118,
+        "home_odds": -138
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.344761+00:00",
+        "away_odds": 118,
+        "home_odds": -138
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.656341+00:00",
+        "away_odds": 118,
+        "home_odds": -138
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.660434+00:00",
+        "away_odds": 118,
+        "home_odds": -138
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.683808+00:00",
+        "away_odds": 118,
+        "home_odds": -138
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.711193+00:00",
+        "away_odds": 118,
+        "home_odds": -138
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.811217+00:00",
+        "away_odds": 118,
+        "home_odds": -138
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.404206+00:00",
+        "away_odds": 118,
+        "home_odds": -138
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.553091+00:00",
+        "away_odds": 118,
+        "home_odds": -138
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.748993+00:00",
+        "away_odds": 118,
+        "home_odds": -138
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.733060+00:00",
+        "away_odds": 118,
+        "home_odds": -138
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.894064+00:00",
+        "away_odds": 118,
+        "home_odds": -138
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.041897+00:00",
+        "away_odds": 118,
+        "home_odds": -138
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.250051+00:00",
+        "away_odds": 118,
+        "home_odds": -138
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.144163+00:00",
+        "away_odds": 118,
+        "home_odds": -138
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.629727+00:00",
+        "away_odds": 118,
+        "home_odds": -138
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.910889+00:00",
+        "away_odds": 126,
+        "home_odds": -148
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.338307+00:00",
+        "away_odds": 126,
+        "home_odds": -148
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.790672+00:00",
+        "away_odds": 126,
+        "home_odds": -148
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.178431+00:00",
+        "away_odds": 126,
+        "home_odds": -148
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.267113+00:00",
+        "away_odds": 126,
+        "home_odds": -148
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T01:05:49.122932+00:00",
+        "away_odds": 118,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.346014+00:00",
+        "away_odds": 118,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.660867+00:00",
+        "away_odds": 118,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.662157+00:00",
+        "away_odds": 118,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.686060+00:00",
+        "away_odds": 118,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.713769+00:00",
+        "away_odds": 118,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.814365+00:00",
+        "away_odds": 118,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.407655+00:00",
+        "away_odds": 118,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.556671+00:00",
+        "away_odds": 118,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.753364+00:00",
+        "away_odds": 118,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.737270+00:00",
+        "away_odds": 118,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.898299+00:00",
+        "away_odds": 118,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.046736+00:00",
+        "away_odds": 118,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.255194+00:00",
+        "away_odds": 118,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.149729+00:00",
+        "away_odds": 118,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.636670+00:00",
+        "away_odds": 118,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.917059+00:00",
+        "away_odds": 132,
+        "home_odds": -146
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.344781+00:00",
+        "away_odds": 132,
+        "home_odds": -146
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.797963+00:00",
+        "away_odds": 132,
+        "home_odds": -146
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.187015+00:00",
+        "away_odds": 132,
+        "home_odds": -146
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.274992+00:00",
+        "away_odds": 132,
+        "home_odds": -146
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:05:49.123707+00:00",
+        "away_odds": 119,
+        "home_odds": -143
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.347200+00:00",
+        "away_odds": 119,
+        "home_odds": -143
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.664043+00:00",
+        "away_odds": 119,
+        "home_odds": -143
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.664092+00:00",
+        "away_odds": 119,
+        "home_odds": -143
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.688227+00:00",
+        "away_odds": 119,
+        "home_odds": -143
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.716369+00:00",
+        "away_odds": 119,
+        "home_odds": -143
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.818045+00:00",
+        "away_odds": 119,
+        "home_odds": -143
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.411026+00:00",
+        "away_odds": 119,
+        "home_odds": -143
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.560251+00:00",
+        "away_odds": 119,
+        "home_odds": -143
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.757179+00:00",
+        "away_odds": 119,
+        "home_odds": -143
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.741283+00:00",
+        "away_odds": 119,
+        "home_odds": -143
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.902552+00:00",
+        "away_odds": 119,
+        "home_odds": -143
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.051779+00:00",
+        "away_odds": 119,
+        "home_odds": -143
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.260301+00:00",
+        "away_odds": 119,
+        "home_odds": -143
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.155077+00:00",
+        "away_odds": 119,
+        "home_odds": -143
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.642246+00:00",
+        "away_odds": 119,
+        "home_odds": -143
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.924097+00:00",
+        "away_odds": 129,
+        "home_odds": -156
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.351375+00:00",
+        "away_odds": 129,
+        "home_odds": -156
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.806023+00:00",
+        "away_odds": 129,
+        "home_odds": -156
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.195270+00:00",
+        "away_odds": 129,
+        "home_odds": -156
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.282977+00:00",
+        "away_odds": 129,
+        "home_odds": -156
+      }
+    ]
+  },
+  "d68d87788cfa956ebee8d3a758c79ff0": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:05:49.124822+00:00",
+        "away_odds": -178,
+        "home_odds": 150
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.348378+00:00",
+        "away_odds": -178,
+        "home_odds": 150
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.667259+00:00",
+        "away_odds": -178,
+        "home_odds": 150
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.665997+00:00",
+        "away_odds": -178,
+        "home_odds": 150
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.690365+00:00",
+        "away_odds": -178,
+        "home_odds": 150
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.719067+00:00",
+        "away_odds": -178,
+        "home_odds": 150
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.821259+00:00",
+        "away_odds": -178,
+        "home_odds": 150
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.414290+00:00",
+        "away_odds": -178,
+        "home_odds": 150
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.563842+00:00",
+        "away_odds": -178,
+        "home_odds": 150
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.761631+00:00",
+        "away_odds": -178,
+        "home_odds": 150
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.745487+00:00",
+        "away_odds": -178,
+        "home_odds": 150
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.906995+00:00",
+        "away_odds": -178,
+        "home_odds": 150
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.057440+00:00",
+        "away_odds": -178,
+        "home_odds": 150
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.266786+00:00",
+        "away_odds": -178,
+        "home_odds": 150
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.161211+00:00",
+        "away_odds": -178,
+        "home_odds": 150
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.648716+00:00",
+        "away_odds": -178,
+        "home_odds": 150
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.931277+00:00",
+        "away_odds": -172,
+        "home_odds": 144
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.360715+00:00",
+        "away_odds": -172,
+        "home_odds": 144
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.814079+00:00",
+        "away_odds": -172,
+        "home_odds": 144
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.204552+00:00",
+        "away_odds": -172,
+        "home_odds": 144
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.292229+00:00",
+        "away_odds": -172,
+        "home_odds": 144
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T01:05:49.125626+00:00",
+        "away_odds": -165,
+        "home_odds": 149
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.349555+00:00",
+        "away_odds": -165,
+        "home_odds": 149
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.670547+00:00",
+        "away_odds": -165,
+        "home_odds": 149
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.667795+00:00",
+        "away_odds": -165,
+        "home_odds": 149
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.692514+00:00",
+        "away_odds": -165,
+        "home_odds": 149
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.721623+00:00",
+        "away_odds": -165,
+        "home_odds": 149
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.824369+00:00",
+        "away_odds": -165,
+        "home_odds": 149
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.417665+00:00",
+        "away_odds": -162,
+        "home_odds": 147
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.568313+00:00",
+        "away_odds": -162,
+        "home_odds": 147
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.766280+00:00",
+        "away_odds": -162,
+        "home_odds": 147
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.749730+00:00",
+        "away_odds": -162,
+        "home_odds": 147
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.911423+00:00",
+        "away_odds": -162,
+        "home_odds": 147
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.062262+00:00",
+        "away_odds": -162,
+        "home_odds": 147
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.271960+00:00",
+        "away_odds": -162,
+        "home_odds": 147
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.166649+00:00",
+        "away_odds": -162,
+        "home_odds": 147
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.654240+00:00",
+        "away_odds": -162,
+        "home_odds": 147
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.937596+00:00",
+        "away_odds": -155,
+        "home_odds": 140
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.367434+00:00",
+        "away_odds": -155,
+        "home_odds": 140
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.821123+00:00",
+        "away_odds": -155,
+        "home_odds": 140
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.212621+00:00",
+        "away_odds": -155,
+        "home_odds": 140
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.299957+00:00",
+        "away_odds": -155,
+        "home_odds": 140
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:05:49.126407+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.351506+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.673738+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.669582+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.694874+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.724119+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.827338+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.420896+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.571878+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.770212+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.753988+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.915669+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.067232+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.277023+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.171899+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.659719+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.944225+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.374237+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.828005+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.220162+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.308795+00:00",
+        "away_odds": -168,
+        "home_odds": 139
+      }
+    ]
+  },
+  "970acfb69adcb4bf8fc9ce89662aa43e": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:05:49.127590+00:00",
+        "away_odds": -110,
+        "home_odds": -106
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.352778+00:00",
+        "away_odds": -110,
+        "home_odds": -106
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.676913+00:00",
+        "away_odds": -110,
+        "home_odds": -106
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.671343+00:00",
+        "away_odds": -110,
+        "home_odds": -106
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.697204+00:00",
+        "away_odds": -110,
+        "home_odds": -106
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.726709+00:00",
+        "away_odds": -110,
+        "home_odds": -106
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.830384+00:00",
+        "away_odds": -110,
+        "home_odds": -106
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.424122+00:00",
+        "away_odds": -110,
+        "home_odds": -106
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.575506+00:00",
+        "away_odds": -110,
+        "home_odds": -106
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.774702+00:00",
+        "away_odds": -110,
+        "home_odds": -106
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.758366+00:00",
+        "away_odds": -110,
+        "home_odds": -106
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.919913+00:00",
+        "away_odds": -110,
+        "home_odds": -106
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.072889+00:00",
+        "away_odds": -116,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.283021+00:00",
+        "away_odds": -116,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.178195+00:00",
+        "away_odds": -116,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.666041+00:00",
+        "away_odds": -116,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.951571+00:00",
+        "away_odds": -116,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.382623+00:00",
+        "away_odds": -116,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.835995+00:00",
+        "away_odds": -116,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.229201+00:00",
+        "away_odds": -116,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.317423+00:00",
+        "away_odds": -116,
+        "home_odds": -102
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T01:05:49.128407+00:00",
+        "away_odds": -114,
+        "home_odds": 104
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.354066+00:00",
+        "away_odds": -114,
+        "home_odds": 104
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.679808+00:00",
+        "away_odds": -114,
+        "home_odds": 104
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.673129+00:00",
+        "away_odds": -114,
+        "home_odds": 104
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.699377+00:00",
+        "away_odds": -114,
+        "home_odds": 104
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.729287+00:00",
+        "away_odds": -114,
+        "home_odds": 104
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.833571+00:00",
+        "away_odds": -114,
+        "home_odds": 104
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.427335+00:00",
+        "away_odds": -114,
+        "home_odds": 104
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.579048+00:00",
+        "away_odds": -114,
+        "home_odds": 104
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.778556+00:00",
+        "away_odds": -114,
+        "home_odds": 104
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.762633+00:00",
+        "away_odds": -114,
+        "home_odds": 104
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.924455+00:00",
+        "away_odds": -114,
+        "home_odds": 104
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.077690+00:00",
+        "away_odds": -114,
+        "home_odds": 104
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.288101+00:00",
+        "away_odds": -114,
+        "home_odds": 104
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.183894+00:00",
+        "away_odds": -114,
+        "home_odds": 104
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.671571+00:00",
+        "away_odds": -114,
+        "home_odds": 104
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.957984+00:00",
+        "away_odds": -115,
+        "home_odds": 104
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.389550+00:00",
+        "away_odds": -115,
+        "home_odds": 104
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.843223+00:00",
+        "away_odds": -115,
+        "home_odds": 104
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.236697+00:00",
+        "away_odds": -115,
+        "home_odds": 104
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.325225+00:00",
+        "away_odds": -115,
+        "home_odds": 104
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:05:49.129216+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.355341+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.682981+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.674937+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.701544+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.731857+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.836673+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.430575+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.582780+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.782882+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.766960+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.928768+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.082494+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.293144+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.189277+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.677025+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.964171+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.396652+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.850171+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.244306+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.332850+00:00",
+        "away_odds": -118,
+        "home_odds": -102
+      }
+    ]
+  },
+  "a5f186ae13718f117194fdc34bae1f01": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:05:49.130367+00:00",
+        "away_odds": -138,
+        "home_odds": 118
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.356675+00:00",
+        "away_odds": -138,
+        "home_odds": 118
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.687924+00:00",
+        "away_odds": -138,
+        "home_odds": 118
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.676753+00:00",
+        "away_odds": -138,
+        "home_odds": 118
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.703713+00:00",
+        "away_odds": -138,
+        "home_odds": 118
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.734435+00:00",
+        "away_odds": -138,
+        "home_odds": 118
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.839806+00:00",
+        "away_odds": -138,
+        "home_odds": 118
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.433797+00:00",
+        "away_odds": -138,
+        "home_odds": 118
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.586424+00:00",
+        "away_odds": -138,
+        "home_odds": 118
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.787468+00:00",
+        "away_odds": -138,
+        "home_odds": 118
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.771295+00:00",
+        "away_odds": -138,
+        "home_odds": 118
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.933031+00:00",
+        "away_odds": -138,
+        "home_odds": 118
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.087923+00:00",
+        "away_odds": -138,
+        "home_odds": 118
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.299252+00:00",
+        "away_odds": -138,
+        "home_odds": 118
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.196344+00:00",
+        "away_odds": -138,
+        "home_odds": 118
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.683360+00:00",
+        "away_odds": -138,
+        "home_odds": 118
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.971247+00:00",
+        "away_odds": -132,
+        "home_odds": 112
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.404988+00:00",
+        "away_odds": -132,
+        "home_odds": 112
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.859432+00:00",
+        "away_odds": -132,
+        "home_odds": 112
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.252877+00:00",
+        "away_odds": -132,
+        "home_odds": 112
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.342169+00:00",
+        "away_odds": -132,
+        "home_odds": 112
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T01:05:49.131199+00:00",
+        "away_odds": -128,
+        "home_odds": 116
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.357969+00:00",
+        "away_odds": -128,
+        "home_odds": 116
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.692289+00:00",
+        "away_odds": -128,
+        "home_odds": 116
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.678552+00:00",
+        "away_odds": -128,
+        "home_odds": 116
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.705910+00:00",
+        "away_odds": -128,
+        "home_odds": 116
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.737014+00:00",
+        "away_odds": -128,
+        "home_odds": 116
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.842906+00:00",
+        "away_odds": -128,
+        "home_odds": 116
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.437013+00:00",
+        "away_odds": -128,
+        "home_odds": 116
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.590038+00:00",
+        "away_odds": -128,
+        "home_odds": 116
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.791321+00:00",
+        "away_odds": -128,
+        "home_odds": 116
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.775949+00:00",
+        "away_odds": -128,
+        "home_odds": 116
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.937307+00:00",
+        "away_odds": -128,
+        "home_odds": 116
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.092626+00:00",
+        "away_odds": -134,
+        "home_odds": 122
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.304413+00:00",
+        "away_odds": -134,
+        "home_odds": 122
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.202750+00:00",
+        "away_odds": -134,
+        "home_odds": 122
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.688847+00:00",
+        "away_odds": -134,
+        "home_odds": 122
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.977832+00:00",
+        "away_odds": -120,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.411678+00:00",
+        "away_odds": -120,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.866725+00:00",
+        "away_odds": -120,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.260412+00:00",
+        "away_odds": -120,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.350133+00:00",
+        "away_odds": -120,
+        "home_odds": 109
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:05:49.132024+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.359292+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.695684+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.680895+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.708108+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.739584+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.846044+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.440222+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.593592+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.795116+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.780445+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.941999+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.097457+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.309605+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.209190+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.694487+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.984179+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.418130+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.874427+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.267828+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.358331+00:00",
+        "away_odds": -131,
+        "home_odds": 109
+      }
+    ]
+  },
+  "af4723d660204fd1fb7719261eb7f74b": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:05:49.133384+00:00",
+        "away_odds": 134,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.360589+00:00",
+        "away_odds": 134,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.699060+00:00",
+        "away_odds": 134,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.682931+00:00",
+        "away_odds": 134,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.710455+00:00",
+        "away_odds": 134,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.742216+00:00",
+        "away_odds": 134,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.849111+00:00",
+        "away_odds": 134,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.443428+00:00",
+        "away_odds": 134,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.597218+00:00",
+        "away_odds": 134,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.801381+00:00",
+        "away_odds": 134,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.784901+00:00",
+        "away_odds": 134,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.946401+00:00",
+        "away_odds": 134,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.103164+00:00",
+        "away_odds": 134,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.315597+00:00",
+        "away_odds": 134,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.216292+00:00",
+        "away_odds": 134,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.701136+00:00",
+        "away_odds": 134,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.992157+00:00",
+        "away_odds": 140,
+        "home_odds": -166
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.426550+00:00",
+        "away_odds": 140,
+        "home_odds": -166
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.882661+00:00",
+        "away_odds": 140,
+        "home_odds": -166
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.276816+00:00",
+        "away_odds": 140,
+        "home_odds": -166
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.367088+00:00",
+        "away_odds": 140,
+        "home_odds": -166
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T01:05:49.134285+00:00",
+        "away_odds": 143,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.361824+00:00",
+        "away_odds": 143,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.702298+00:00",
+        "away_odds": 143,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.684800+00:00",
+        "away_odds": 143,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.712824+00:00",
+        "away_odds": 143,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.744800+00:00",
+        "away_odds": 143,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.852287+00:00",
+        "away_odds": 143,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.446577+00:00",
+        "away_odds": 143,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.601161+00:00",
+        "away_odds": 147,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.805345+00:00",
+        "away_odds": 147,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.789535+00:00",
+        "away_odds": 147,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.950775+00:00",
+        "away_odds": 147,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.107953+00:00",
+        "away_odds": 147,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.320942+00:00",
+        "away_odds": 147,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.221728+00:00",
+        "away_odds": 147,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.706879+00:00",
+        "away_odds": 147,
+        "home_odds": -162
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.998290+00:00",
+        "away_odds": 143,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.433071+00:00",
+        "away_odds": 143,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.889985+00:00",
+        "away_odds": 143,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.284188+00:00",
+        "away_odds": 143,
+        "home_odds": -158
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.375054+00:00",
+        "away_odds": 143,
+        "home_odds": -158
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:05:49.135863+00:00",
+        "away_odds": 135,
+        "home_odds": -163
+      },
+      {
+        "timestamp": "2026-04-13T01:08:56.363097+00:00",
+        "away_odds": 135,
+        "home_odds": -163
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.705571+00:00",
+        "away_odds": 135,
+        "home_odds": -163
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.686650+00:00",
+        "away_odds": 135,
+        "home_odds": -163
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.715049+00:00",
+        "away_odds": 135,
+        "home_odds": -163
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.747382+00:00",
+        "away_odds": 135,
+        "home_odds": -163
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.855254+00:00",
+        "away_odds": 135,
+        "home_odds": -163
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.449860+00:00",
+        "away_odds": 135,
+        "home_odds": -163
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.604996+00:00",
+        "away_odds": 135,
+        "home_odds": -163
+      },
+      {
+        "timestamp": "2026-04-13T01:16:28.809318+00:00",
+        "away_odds": 135,
+        "home_odds": -163
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.793927+00:00",
+        "away_odds": 135,
+        "home_odds": -163
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.955260+00:00",
+        "away_odds": 139,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T01:21:09.112853+00:00",
+        "away_odds": 139,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T01:21:13.326138+00:00",
+        "away_odds": 139,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T01:26:26.227096+00:00",
+        "away_odds": 139,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T01:29:09.713291+00:00",
+        "away_odds": 139,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T17:35:58.004382+00:00",
+        "away_odds": 139,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.439691+00:00",
+        "away_odds": 139,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.897031+00:00",
+        "away_odds": 139,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.292023+00:00",
+        "away_odds": 139,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.382730+00:00",
+        "away_odds": 139,
+        "home_odds": -168
+      }
+    ]
+  },
+  "25f53495c4044a1d8fb682e3715eb7b3": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:08:56.319152+00:00",
+        "away_odds": 180,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.585781+00:00",
+        "away_odds": 180,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.622707+00:00",
+        "away_odds": 180,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.637696+00:00",
+        "away_odds": 180,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.657033+00:00",
+        "away_odds": 176,
+        "home_odds": -210
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.743453+00:00",
+        "away_odds": 176,
+        "home_odds": -210
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.333486+00:00",
+        "away_odds": 176,
+        "home_odds": -210
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.473753+00:00",
+        "away_odds": 176,
+        "home_odds": -210
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.643642+00:00",
+        "away_odds": 176,
+        "home_odds": -210
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.807149+00:00",
+        "away_odds": 176,
+        "home_odds": -210
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.727975+00:00",
+        "away_odds": 180,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.636807+00:00",
+        "away_odds": 180,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.108344+00:00",
+        "away_odds": 180,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.516188+00:00",
+        "away_odds": 180,
+        "home_odds": -215
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.628368+00:00",
+        "away_odds": 180,
+        "home_odds": -215
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T17:35:57.734143+00:00",
+        "away_odds": 180,
+        "home_odds": -218
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.643477+00:00",
+        "away_odds": 180,
+        "home_odds": -218
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.115524+00:00",
+        "away_odds": 180,
+        "home_odds": -218
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.524170+00:00",
+        "away_odds": 180,
+        "home_odds": -218
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.636987+00:00",
+        "away_odds": 180,
+        "home_odds": -218
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T17:35:57.741782+00:00",
+        "away_odds": 189,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.650298+00:00",
+        "away_odds": 189,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.122989+00:00",
+        "away_odds": 189,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.531733+00:00",
+        "away_odds": 189,
+        "home_odds": -225
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.647390+00:00",
+        "away_odds": 189,
+        "home_odds": -225
+      }
+    ]
+  },
+  "f7264c00c662a127d58f4ab12fc498bc": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:08:56.322113+00:00",
+        "away_odds": -104,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.595402+00:00",
+        "away_odds": -104,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.627597+00:00",
+        "away_odds": -104,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.644017+00:00",
+        "away_odds": -104,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.664221+00:00",
+        "away_odds": -104,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.752440+00:00",
+        "away_odds": -104,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.342999+00:00",
+        "away_odds": -104,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.484307+00:00",
+        "away_odds": -104,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.656400+00:00",
+        "away_odds": -104,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.816000+00:00",
+        "away_odds": -104,
+        "home_odds": -112
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.768571+00:00",
+        "away_odds": -102,
+        "home_odds": -116
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.685670+00:00",
+        "away_odds": -102,
+        "home_odds": -116
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.154144+00:00",
+        "away_odds": -102,
+        "home_odds": -116
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.564732+00:00",
+        "away_odds": -102,
+        "home_odds": -116
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.685210+00:00",
+        "away_odds": -102,
+        "home_odds": -116
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T17:35:57.775449+00:00",
+        "away_odds": -105,
+        "home_odds": -115
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.692754+00:00",
+        "away_odds": -105,
+        "home_odds": -115
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.161267+00:00",
+        "away_odds": -105,
+        "home_odds": -115
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.572543+00:00",
+        "away_odds": -105,
+        "home_odds": -115
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.693363+00:00",
+        "away_odds": -105,
+        "home_odds": -115
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T17:35:57.781408+00:00",
+        "away_odds": 100,
+        "home_odds": -120
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.699905+00:00",
+        "away_odds": 100,
+        "home_odds": -120
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.168424+00:00",
+        "away_odds": 100,
+        "home_odds": -120
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.580088+00:00",
+        "away_odds": 100,
+        "home_odds": -120
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.702643+00:00",
+        "away_odds": 100,
+        "home_odds": -120
+      }
+    ]
+  },
+  "bee2c9ea4bf8df373aa45af7005b583d": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:08:56.325221+00:00",
+        "away_odds": 172,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.605032+00:00",
+        "away_odds": 172,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.632518+00:00",
+        "away_odds": 168,
+        "home_odds": -200
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.650211+00:00",
+        "away_odds": 172,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.671540+00:00",
+        "away_odds": 172,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.761011+00:00",
+        "away_odds": 172,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.353099+00:00",
+        "away_odds": 172,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.494606+00:00",
+        "away_odds": 172,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.668534+00:00",
+        "away_odds": 172,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.824593+00:00",
+        "away_odds": 172,
+        "home_odds": -205
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:08:56.326254+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.608028+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.634399+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.652277+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.673900+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.763902+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.356155+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.498353+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.672522+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.829022+00:00",
+        "away_odds": 170,
+        "home_odds": -205
+      }
+    ]
+  },
+  "2a8e5a45f1bcb477a6f9cbd7739d005e": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:08:56.327295+00:00",
+        "away_odds": 225,
+        "home_odds": -275
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.610964+00:00",
+        "away_odds": 225,
+        "home_odds": -275
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.636122+00:00",
+        "away_odds": 225,
+        "home_odds": -275
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.654382+00:00",
+        "away_odds": 225,
+        "home_odds": -275
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.676338+00:00",
+        "away_odds": 225,
+        "home_odds": -275
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.767499+00:00",
+        "away_odds": 225,
+        "home_odds": -275
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.359202+00:00",
+        "away_odds": 225,
+        "home_odds": -275
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.502667+00:00",
+        "away_odds": 225,
+        "home_odds": -275
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.676563+00:00",
+        "away_odds": 225,
+        "home_odds": -275
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.833882+00:00",
+        "away_odds": 225,
+        "home_odds": -275
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:08:56.328356+00:00",
+        "away_odds": 225,
+        "home_odds": -278
+      },
+      {
+        "timestamp": "2026-04-13T01:09:57.614270+00:00",
+        "away_odds": 225,
+        "home_odds": -278
+      },
+      {
+        "timestamp": "2026-04-13T01:10:58.637793+00:00",
+        "away_odds": 225,
+        "home_odds": -278
+      },
+      {
+        "timestamp": "2026-04-13T01:11:59.656444+00:00",
+        "away_odds": 225,
+        "home_odds": -278
+      },
+      {
+        "timestamp": "2026-04-13T01:13:00.678748+00:00",
+        "away_odds": 225,
+        "home_odds": -278
+      },
+      {
+        "timestamp": "2026-04-13T01:14:01.770438+00:00",
+        "away_odds": 225,
+        "home_odds": -278
+      },
+      {
+        "timestamp": "2026-04-13T01:15:03.362269+00:00",
+        "away_odds": 225,
+        "home_odds": -278
+      },
+      {
+        "timestamp": "2026-04-13T01:16:04.506125+00:00",
+        "away_odds": 225,
+        "home_odds": -278
+      },
+      {
+        "timestamp": "2026-04-13T01:17:05.680529+00:00",
+        "away_odds": 225,
+        "home_odds": -278
+      },
+      {
+        "timestamp": "2026-04-13T01:18:06.838170+00:00",
+        "away_odds": 225,
+        "home_odds": -278
+      }
+    ]
+  },
+  "f0a7004057c75d3a27566a9cadac71de": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T01:29:09.564297+00:00",
+        "away_odds": 108,
+        "home_odds": -126
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.829660+00:00",
+        "away_odds": 110,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.254541+00:00",
+        "away_odds": 110,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.701124+00:00",
+        "away_odds": 110,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.083072+00:00",
+        "away_odds": 110,
+        "home_odds": -130
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.169526+00:00",
+        "away_odds": 110,
+        "home_odds": -130
+      }
+    ],
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T01:29:09.570366+00:00",
+        "away_odds": 109,
+        "home_odds": -131
+      },
+      {
+        "timestamp": "2026-04-13T17:35:57.836133+00:00",
+        "away_odds": 109,
+        "home_odds": -131
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.260906+00:00",
+        "away_odds": 109,
+        "home_odds": -131
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.708458+00:00",
+        "away_odds": 109,
+        "home_odds": -131
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.090695+00:00",
+        "away_odds": 109,
+        "home_odds": -131
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.177143+00:00",
+        "away_odds": 109,
+        "home_odds": -131
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T17:35:57.843236+00:00",
+        "away_odds": 114,
+        "home_odds": -126
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.267053+00:00",
+        "away_odds": 114,
+        "home_odds": -126
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.715206+00:00",
+        "away_odds": 114,
+        "home_odds": -126
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.098107+00:00",
+        "away_odds": 114,
+        "home_odds": -126
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.185484+00:00",
+        "away_odds": 114,
+        "home_odds": -126
+      }
+    ]
+  },
+  "0999cb23cd03811476b378dd4045ea16": {
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T17:35:57.749470+00:00",
+        "away_odds": 140,
+        "home_odds": -166
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.660482+00:00",
+        "away_odds": 140,
+        "home_odds": -166
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.130992+00:00",
+        "away_odds": 140,
+        "home_odds": -166
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.540788+00:00",
+        "away_odds": 140,
+        "home_odds": -166
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.657891+00:00",
+        "away_odds": 140,
+        "home_odds": -166
+      }
+    ],
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T17:35:57.755635+00:00",
+        "away_odds": 140,
+        "home_odds": -166
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.669067+00:00",
+        "away_odds": 142,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.138739+00:00",
+        "away_odds": 142,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.548410+00:00",
+        "away_odds": 142,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.666207+00:00",
+        "away_odds": 142,
+        "home_odds": -168
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T17:35:57.761846+00:00",
+        "away_odds": 145,
+        "home_odds": -165
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.677463+00:00",
+        "away_odds": 145,
+        "home_odds": -165
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.145818+00:00",
+        "away_odds": 145,
+        "home_odds": -165
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.556158+00:00",
+        "away_odds": 145,
+        "home_odds": -165
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.675369+00:00",
+        "away_odds": 145,
+        "home_odds": -165
+      }
+    ]
+  },
+  "7cfae0891b99865ef7fc9d357b69ca28": {
+    "DraftKings": [
+      {
+        "timestamp": "2026-04-13T17:35:57.788105+00:00",
+        "away_odds": 160,
+        "home_odds": -192
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.708460+00:00",
+        "away_odds": 160,
+        "home_odds": -192
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.176753+00:00",
+        "away_odds": 160,
+        "home_odds": -192
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.589029+00:00",
+        "away_odds": 160,
+        "home_odds": -192
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.712006+00:00",
+        "away_odds": 160,
+        "home_odds": -192
+      }
+    ],
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T17:35:57.794952+00:00",
+        "away_odds": 176,
+        "home_odds": -210
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.715471+00:00",
+        "away_odds": 176,
+        "home_odds": -210
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.184082+00:00",
+        "away_odds": 176,
+        "home_odds": -210
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.596637+00:00",
+        "away_odds": 176,
+        "home_odds": -210
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.720125+00:00",
+        "away_odds": 176,
+        "home_odds": -210
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T17:35:57.800869+00:00",
+        "away_odds": 177,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.722510+00:00",
+        "away_odds": 177,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.192479+00:00",
+        "away_odds": 177,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.604864+00:00",
+        "away_odds": 177,
+        "home_odds": -205
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.732381+00:00",
+        "away_odds": 177,
+        "home_odds": -205
+      }
+    ]
+  },
+  "385f86efd6c56a30190e6bb26a224fe6": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T17:35:58.011757+00:00",
+        "away_odds": 122,
+        "home_odds": -144
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.447106+00:00",
+        "away_odds": 122,
+        "home_odds": -144
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.905746+00:00",
+        "away_odds": 122,
+        "home_odds": -144
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.300429+00:00",
+        "away_odds": 122,
+        "home_odds": -144
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.391884+00:00",
+        "away_odds": 122,
+        "home_odds": -144
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T17:35:58.018037+00:00",
+        "away_odds": 124,
+        "home_odds": -137
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.453858+00:00",
+        "away_odds": 124,
+        "home_odds": -137
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.912788+00:00",
+        "away_odds": 124,
+        "home_odds": -137
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.308703+00:00",
+        "away_odds": 124,
+        "home_odds": -137
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.400383+00:00",
+        "away_odds": 124,
+        "home_odds": -137
+      }
+    ]
+  },
+  "42f96d05fcb3bf3aefe7588b7e0de883": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T17:35:58.026251+00:00",
+        "away_odds": 124,
+        "home_odds": -146
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.461193+00:00",
+        "away_odds": 124,
+        "home_odds": -146
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.921813+00:00",
+        "away_odds": 124,
+        "home_odds": -146
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.317204+00:00",
+        "away_odds": 124,
+        "home_odds": -146
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.409160+00:00",
+        "away_odds": 124,
+        "home_odds": -146
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T17:35:58.032610+00:00",
+        "away_odds": 136,
+        "home_odds": -150
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.467661+00:00",
+        "away_odds": 136,
+        "home_odds": -150
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.928904+00:00",
+        "away_odds": 136,
+        "home_odds": -150
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.324931+00:00",
+        "away_odds": 136,
+        "home_odds": -150
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.416908+00:00",
+        "away_odds": 136,
+        "home_odds": -150
+      }
+    ]
+  },
+  "fb1c5d37a9a3812d5d1e0b5ab2f3e768": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T17:35:58.040746+00:00",
+        "away_odds": -108,
+        "home_odds": -108
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.475255+00:00",
+        "away_odds": -108,
+        "home_odds": -108
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.937137+00:00",
+        "away_odds": -108,
+        "home_odds": -108
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.333322+00:00",
+        "away_odds": -108,
+        "home_odds": -108
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.425443+00:00",
+        "away_odds": -108,
+        "home_odds": -108
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T17:35:58.047035+00:00",
+        "away_odds": 101,
+        "home_odds": -111
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.481739+00:00",
+        "away_odds": 101,
+        "home_odds": -111
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.944213+00:00",
+        "away_odds": 101,
+        "home_odds": -111
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.341131+00:00",
+        "away_odds": 101,
+        "home_odds": -111
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.433471+00:00",
+        "away_odds": 101,
+        "home_odds": -111
+      }
+    ]
+  },
+  "441105a5d9e63b9467a1b49e493aff1f": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T17:35:58.054354+00:00",
+        "away_odds": -102,
+        "home_odds": -116
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.489707+00:00",
+        "away_odds": -102,
+        "home_odds": -116
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.952098+00:00",
+        "away_odds": -102,
+        "home_odds": -116
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.349556+00:00",
+        "away_odds": -102,
+        "home_odds": -116
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.443010+00:00",
+        "away_odds": -102,
+        "home_odds": -116
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T17:35:58.061008+00:00",
+        "away_odds": 109,
+        "home_odds": -120
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.496185+00:00",
+        "away_odds": 109,
+        "home_odds": -120
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.959246+00:00",
+        "away_odds": 109,
+        "home_odds": -120
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.357438+00:00",
+        "away_odds": 109,
+        "home_odds": -120
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.451535+00:00",
+        "away_odds": 109,
+        "home_odds": -120
+      }
+    ]
+  },
+  "d5bcde6808790e2d31facdd85fadb43e": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T17:35:58.068176+00:00",
+        "away_odds": 154,
+        "home_odds": -184
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.504865+00:00",
+        "away_odds": 154,
+        "home_odds": -184
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.967259+00:00",
+        "away_odds": 154,
+        "home_odds": -184
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.365864+00:00",
+        "away_odds": 154,
+        "home_odds": -184
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.460746+00:00",
+        "away_odds": 154,
+        "home_odds": -184
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T17:35:58.075200+00:00",
+        "away_odds": 154,
+        "home_odds": -170
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.511391+00:00",
+        "away_odds": 154,
+        "home_odds": -170
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.975733+00:00",
+        "away_odds": 154,
+        "home_odds": -170
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.374220+00:00",
+        "away_odds": 154,
+        "home_odds": -170
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.470593+00:00",
+        "away_odds": 154,
+        "home_odds": -170
+      }
+    ]
+  },
+  "e24b161253e29f8c9ef92e6906b29364": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T17:35:58.082287+00:00",
+        "away_odds": 142,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.519182+00:00",
+        "away_odds": 142,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.983533+00:00",
+        "away_odds": 142,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.382737+00:00",
+        "away_odds": 142,
+        "home_odds": -168
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.479728+00:00",
+        "away_odds": 142,
+        "home_odds": -168
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T17:35:58.088514+00:00",
+        "away_odds": 140,
+        "home_odds": -155
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.525719+00:00",
+        "away_odds": 140,
+        "home_odds": -155
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.990898+00:00",
+        "away_odds": 140,
+        "home_odds": -155
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.390929+00:00",
+        "away_odds": 140,
+        "home_odds": -155
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.488699+00:00",
+        "away_odds": 140,
+        "home_odds": -155
+      }
+    ]
+  },
+  "be2fbbe5b663cd7dc72d23031f2498ec": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T17:35:58.095848+00:00",
+        "away_odds": 120,
+        "home_odds": -142
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.533050+00:00",
+        "away_odds": 120,
+        "home_odds": -142
+      },
+      {
+        "timestamp": "2026-04-13T17:45:56.999012+00:00",
+        "away_odds": 120,
+        "home_odds": -142
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.399671+00:00",
+        "away_odds": 120,
+        "home_odds": -142
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.498327+00:00",
+        "away_odds": 120,
+        "home_odds": -142
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T17:35:58.102078+00:00",
+        "away_odds": 139,
+        "home_odds": -153
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.539975+00:00",
+        "away_odds": 139,
+        "home_odds": -153
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.007031+00:00",
+        "away_odds": 139,
+        "home_odds": -153
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.408150+00:00",
+        "away_odds": 139,
+        "home_odds": -153
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.507260+00:00",
+        "away_odds": 139,
+        "home_odds": -153
+      }
+    ]
+  },
+  "62e56fb8e25706db1f4b277d3dab18de": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T17:35:58.110146+00:00",
+        "away_odds": -136,
+        "home_odds": 116
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.547210+00:00",
+        "away_odds": -136,
+        "home_odds": 116
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.015146+00:00",
+        "away_odds": -136,
+        "home_odds": 116
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.416993+00:00",
+        "away_odds": -136,
+        "home_odds": 116
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.516492+00:00",
+        "away_odds": -136,
+        "home_odds": 116
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T17:35:58.116344+00:00",
+        "away_odds": -135,
+        "home_odds": 122
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.554879+00:00",
+        "away_odds": -135,
+        "home_odds": 122
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.022503+00:00",
+        "away_odds": -135,
+        "home_odds": 122
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.424994+00:00",
+        "away_odds": -135,
+        "home_odds": 122
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.525457+00:00",
+        "away_odds": -135,
+        "home_odds": 122
+      }
+    ]
+  },
+  "3de0bc35b00fae1cd6acfbadcf023411": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T17:35:58.123595+00:00",
+        "away_odds": -132,
+        "home_odds": 112
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.562297+00:00",
+        "away_odds": -132,
+        "home_odds": 112
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.030515+00:00",
+        "away_odds": -132,
+        "home_odds": 112
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.433750+00:00",
+        "away_odds": -132,
+        "home_odds": 112
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.535754+00:00",
+        "away_odds": -132,
+        "home_odds": 112
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T17:35:58.130111+00:00",
+        "away_odds": -140,
+        "home_odds": 127
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.569376+00:00",
+        "away_odds": -140,
+        "home_odds": 127
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.037815+00:00",
+        "away_odds": -140,
+        "home_odds": 127
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.441729+00:00",
+        "away_odds": -140,
+        "home_odds": 127
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.544272+00:00",
+        "away_odds": -140,
+        "home_odds": 127
+      }
+    ]
+  },
+  "9d2cb684d156eddca29c13df0d0bce22": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T17:35:58.137196+00:00",
+        "away_odds": 100,
+        "home_odds": -118
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.577441+00:00",
+        "away_odds": 100,
+        "home_odds": -118
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.045872+00:00",
+        "away_odds": 100,
+        "home_odds": -118
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.450628+00:00",
+        "away_odds": 100,
+        "home_odds": -118
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.554580+00:00",
+        "away_odds": 100,
+        "home_odds": -118
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T17:35:58.144485+00:00",
+        "away_odds": 104,
+        "home_odds": -115
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.583960+00:00",
+        "away_odds": 106,
+        "home_odds": -117
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.053797+00:00",
+        "away_odds": 106,
+        "home_odds": -117
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.458485+00:00",
+        "away_odds": 106,
+        "home_odds": -117
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.563004+00:00",
+        "away_odds": 106,
+        "home_odds": -117
+      }
+    ]
+  },
+  "c0eef6d4f9ed3511fcfdb17153b8f0a3": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T17:35:58.151435+00:00",
+        "away_odds": -120,
+        "home_odds": 102
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.591753+00:00",
+        "away_odds": -120,
+        "home_odds": 102
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.061875+00:00",
+        "away_odds": -120,
+        "home_odds": 102
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.467077+00:00",
+        "away_odds": -120,
+        "home_odds": 102
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.572984+00:00",
+        "away_odds": -120,
+        "home_odds": 102
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T17:35:58.158619+00:00",
+        "away_odds": -110,
+        "home_odds": 100
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.598496+00:00",
+        "away_odds": -110,
+        "home_odds": 100
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.069062+00:00",
+        "away_odds": -110,
+        "home_odds": 100
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.474703+00:00",
+        "away_odds": -110,
+        "home_odds": 100
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.581095+00:00",
+        "away_odds": -110,
+        "home_odds": 100
+      }
+    ]
+  },
+  "4f93a0b7adae6d305b4095cc30172ed9": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T17:35:58.165809+00:00",
+        "away_odds": -120,
+        "home_odds": 102
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.608270+00:00",
+        "away_odds": -120,
+        "home_odds": 102
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.077028+00:00",
+        "away_odds": -120,
+        "home_odds": 102
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.483175+00:00",
+        "away_odds": -120,
+        "home_odds": 102
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.592501+00:00",
+        "away_odds": -120,
+        "home_odds": 102
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T17:35:58.172357+00:00",
+        "away_odds": -104,
+        "home_odds": -106
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.614949+00:00",
+        "away_odds": -104,
+        "home_odds": -106
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.083951+00:00",
+        "away_odds": -104,
+        "home_odds": -106
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.490987+00:00",
+        "away_odds": -104,
+        "home_odds": -106
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.600464+00:00",
+        "away_odds": -104,
+        "home_odds": -106
+      }
+    ]
+  },
+  "bf8721941657f63c8758e23bdee938ba": {
+    "FanDuel": [
+      {
+        "timestamp": "2026-04-13T17:35:58.179705+00:00",
+        "away_odds": 168,
+        "home_odds": -200
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.622662+00:00",
+        "away_odds": 168,
+        "home_odds": -200
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.092237+00:00",
+        "away_odds": 168,
+        "home_odds": -200
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.499379+00:00",
+        "away_odds": 168,
+        "home_odds": -200
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.610835+00:00",
+        "away_odds": 168,
+        "home_odds": -200
+      }
+    ],
+    "BetOnline.ag": [
+      {
+        "timestamp": "2026-04-13T17:35:58.186246+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      },
+      {
+        "timestamp": "2026-04-13T17:45:46.629222+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      },
+      {
+        "timestamp": "2026-04-13T17:45:57.099568+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      },
+      {
+        "timestamp": "2026-04-13T17:46:09.507645+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      },
+      {
+        "timestamp": "2026-04-13T17:48:01.619157+00:00",
+        "away_odds": 167,
+        "home_odds": -185
+      }
+    ]
+  }
+}

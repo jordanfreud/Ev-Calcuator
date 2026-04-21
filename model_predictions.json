@@ -1,0 +1,485 @@
+{
+  "2026-04-12": [
+    {
+      "away_team": "SF",
+      "home_team": "BAL",
+      "away_odds": 110,
+      "home_odds": -125,
+      "run_diff": 1.11,
+      "confidence": 4,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "ARI",
+      "home_team": "PHI",
+      "away_odds": 129,
+      "home_odds": -145,
+      "run_diff": 0.96,
+      "confidence": 6,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "MIN",
+      "home_team": "TOR",
+      "away_odds": 120,
+      "home_odds": -142,
+      "run_diff": 1.39,
+      "confidence": 2,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "MIA",
+      "home_team": "DET",
+      "away_odds": 154,
+      "home_odds": -175,
+      "run_diff": 0.51,
+      "confidence": 12,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "LAA",
+      "home_team": "CIN",
+      "away_odds": -106,
+      "home_odds": -105,
+      "run_diff": 0.6,
+      "confidence": 10,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "ATH",
+      "home_team": "NYM",
+      "away_odds": 142,
+      "home_odds": -168,
+      "run_diff": 0.56,
+      "confidence": 11,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "NYY",
+      "home_team": "TB",
+      "away_odds": -135,
+      "home_odds": 124,
+      "run_diff": 0.93,
+      "confidence": 7,
+      "projected_winner": "Away"
+    },
+    {
+      "away_team": "CWS",
+      "home_team": "KC",
+      "away_odds": 158,
+      "home_odds": -181,
+      "run_diff": 0.51,
+      "confidence": 13,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "WSH",
+      "home_team": "MIL",
+      "away_odds": 194,
+      "home_odds": 225,
+      "run_diff": 0.65,
+      "confidence": 9,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "BOS",
+      "home_team": "STL",
+      "away_odds": -122,
+      "home_odds": 105,
+      "run_diff": 0.15,
+      "confidence": 15,
+      "projected_winner": "Away"
+    },
+    {
+      "away_team": "PIT",
+      "home_team": "CHC",
+      "away_odds": 116,
+      "home_odds": -134,
+      "run_diff": -0.17,
+      "confidence": 14,
+      "projected_winner": "Away"
+    },
+    {
+      "away_team": "HOU",
+      "home_team": "SEA",
+      "away_odds": 139,
+      "home_odds": -160,
+      "run_diff": 1.04,
+      "confidence": 5,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "TEX",
+      "home_team": "LAD",
+      "away_odds": 110,
+      "home_odds": -130,
+      "run_diff": 1.36,
+      "confidence": 3,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "COL",
+      "home_team": "SD",
+      "away_odds": 194,
+      "home_odds": 225,
+      "run_diff": 0.81,
+      "confidence": 8,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "CLE",
+      "home_team": "ATL",
+      "away_odds": 165,
+      "home_odds": -194,
+      "run_diff": 1.85,
+      "confidence": 1,
+      "projected_winner": "Home"
+    }
+  ],
+  "2026-04-13": [
+    {
+      "away_team": "SF",
+      "home_team": "BAL",
+      "away_odds": 110,
+      "home_odds": -125,
+      "run_diff": 1.11,
+      "confidence": 4,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "ARI",
+      "home_team": "PHI",
+      "away_odds": 129,
+      "home_odds": -145,
+      "run_diff": 0.96,
+      "confidence": 6,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "MIN",
+      "home_team": "TOR",
+      "away_odds": 120,
+      "home_odds": -142,
+      "run_diff": 1.39,
+      "confidence": 2,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "MIA",
+      "home_team": "DET",
+      "away_odds": 154,
+      "home_odds": -175,
+      "run_diff": 0.51,
+      "confidence": 12,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "LAA",
+      "home_team": "CIN",
+      "away_odds": -106,
+      "home_odds": -105,
+      "run_diff": 0.6,
+      "confidence": 10,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "ATH",
+      "home_team": "NYM",
+      "away_odds": 142,
+      "home_odds": -168,
+      "run_diff": 0.56,
+      "confidence": 11,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "NYY",
+      "home_team": "TB",
+      "away_odds": -135,
+      "home_odds": 124,
+      "run_diff": 0.93,
+      "confidence": 7,
+      "projected_winner": "Away"
+    },
+    {
+      "away_team": "CWS",
+      "home_team": "KC",
+      "away_odds": 158,
+      "home_odds": -181,
+      "run_diff": 0.51,
+      "confidence": 13,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "WSH",
+      "home_team": "MIL",
+      "away_odds": 194,
+      "home_odds": 225,
+      "run_diff": 0.65,
+      "confidence": 9,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "BOS",
+      "home_team": "STL",
+      "away_odds": -122,
+      "home_odds": 105,
+      "run_diff": 0.15,
+      "confidence": 15,
+      "projected_winner": "Away"
+    },
+    {
+      "away_team": "PIT",
+      "home_team": "CHC",
+      "away_odds": 116,
+      "home_odds": -134,
+      "run_diff": -0.17,
+      "confidence": 14,
+      "projected_winner": "Away"
+    },
+    {
+      "away_team": "HOU",
+      "home_team": "SEA",
+      "away_odds": 139,
+      "home_odds": -160,
+      "run_diff": 1.04,
+      "confidence": 5,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "TEX",
+      "home_team": "LAD",
+      "away_odds": 110,
+      "home_odds": -130,
+      "run_diff": 1.36,
+      "confidence": 3,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "COL",
+      "home_team": "SD",
+      "away_odds": 194,
+      "home_odds": 225,
+      "run_diff": 0.81,
+      "confidence": 8,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "CLE",
+      "home_team": "ATL",
+      "away_odds": 165,
+      "home_odds": -194,
+      "run_diff": 1.85,
+      "confidence": 1,
+      "projected_winner": "Home"
+    }
+  ],
+  "2026-04-16": [
+    {
+      "away_team": "SF",
+      "home_team": "BAL",
+      "away_odds": 110,
+      "home_odds": -125,
+      "run_diff": 1.11,
+      "confidence": 4,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "ARI",
+      "home_team": "PHI",
+      "away_odds": 129,
+      "home_odds": -145,
+      "run_diff": 0.96,
+      "confidence": 6,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "MIN",
+      "home_team": "TOR",
+      "away_odds": 120,
+      "home_odds": -142,
+      "run_diff": 1.39,
+      "confidence": 2,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "MIA",
+      "home_team": "DET",
+      "away_odds": 154,
+      "home_odds": -175,
+      "run_diff": 0.51,
+      "confidence": 12,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "LAA",
+      "home_team": "CIN",
+      "away_odds": -106,
+      "home_odds": -105,
+      "run_diff": 0.6,
+      "confidence": 10,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "ATH",
+      "home_team": "NYM",
+      "away_odds": 142,
+      "home_odds": -168,
+      "run_diff": 0.56,
+      "confidence": 11,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "NYY",
+      "home_team": "TB",
+      "away_odds": -135,
+      "home_odds": 124,
+      "run_diff": 0.93,
+      "confidence": 7,
+      "projected_winner": "Away"
+    },
+    {
+      "away_team": "CWS",
+      "home_team": "KC",
+      "away_odds": 158,
+      "home_odds": -181,
+      "run_diff": 0.51,
+      "confidence": 13,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "WSH",
+      "home_team": "MIL",
+      "away_odds": 194,
+      "home_odds": 225,
+      "run_diff": 0.65,
+      "confidence": 9,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "BOS",
+      "home_team": "STL",
+      "away_odds": -122,
+      "home_odds": 105,
+      "run_diff": 0.15,
+      "confidence": 15,
+      "projected_winner": "Away"
+    },
+    {
+      "away_team": "PIT",
+      "home_team": "CHC",
+      "away_odds": 116,
+      "home_odds": -134,
+      "run_diff": -0.17,
+      "confidence": 14,
+      "projected_winner": "Away"
+    },
+    {
+      "away_team": "HOU",
+      "home_team": "SEA",
+      "away_odds": 139,
+      "home_odds": -160,
+      "run_diff": 1.04,
+      "confidence": 5,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "TEX",
+      "home_team": "LAD",
+      "away_odds": 110,
+      "home_odds": -130,
+      "run_diff": 1.36,
+      "confidence": 3,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "COL",
+      "home_team": "SD",
+      "away_odds": 194,
+      "home_odds": 225,
+      "run_diff": 0.81,
+      "confidence": 8,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "CLE",
+      "home_team": "ATL",
+      "away_odds": 165,
+      "home_odds": -194,
+      "run_diff": 1.85,
+      "confidence": 1,
+      "projected_winner": "Home"
+    }
+  ],
+  "2026-04-20": [
+    {
+      "away_team": "DET",
+      "home_team": "BOS",
+      "run_diff": 0.16,
+      "confidence": 9,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "HOU",
+      "home_team": "CLE",
+      "run_diff": 0.8,
+      "confidence": 3,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "STL",
+      "home_team": "MIA",
+      "run_diff": 0.96,
+      "confidence": 1,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "CIN",
+      "home_team": "TB",
+      "run_diff": 0.81,
+      "confidence": 2,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "ATL",
+      "home_team": "WSH",
+      "run_diff": 0.14,
+      "confidence": 10,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "BAL",
+      "home_team": "KC",
+      "run_diff": -0.23,
+      "confidence": 7,
+      "projected_winner": "Away"
+    },
+    {
+      "away_team": "PHI",
+      "home_team": "CHC",
+      "run_diff": 0.71,
+      "confidence": 5,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "LAD",
+      "home_team": "COL",
+      "run_diff": -0.19,
+      "confidence": 8,
+      "projected_winner": "Away"
+    },
+    {
+      "away_team": "TOR",
+      "home_team": "LAA",
+      "run_diff": 0.45,
+      "confidence": 6,
+      "projected_winner": "Home"
+    },
+    {
+      "away_team": "ATH",
+      "home_team": "SEA",
+      "run_diff": 0.78,
+      "confidence": 4,
+      "projected_winner": "Home"
+    }
+  ]
+}

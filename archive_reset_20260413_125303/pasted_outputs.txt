@@ -1,0 +1,833 @@
+Utah Jazz vs Phoenix Suns (basketball_nba)
+  Team: Utah Jazz
+  Odds: +900
+  EV: -3.35%
+
+Golden State Warriors vs Denver Nuggets (basketball_nba)
+  Team: Golden State Warriors
+  Odds: +425
+  EV: -3.38%
+
+UConn Huskies vs Duke Blue Devils (basketball_ncaab)
+  Team: Duke Blue Devils
+  Odds: -218
+  EV: -3.51%
+
+Sacramento Kings vs Atlanta Hawks (basketball_nba)
+  Team: Atlanta Hawks
+  Odds: -10000
+  EV: -3.52%
+
+Washington Wizards vs Portland Trail Blazers (basketball_nba)
+  Team: Portland Trail Blazers
+  Odds: -1100
+  EV: -3.71%
+
+Purdue Boilermakers vs Arizona Wildcats (basketball_ncaab)
+  Team: Arizona Wildcats
+  Odds: -270
+  EV: -3.89%
+
+Los Angeles Clippers vs Milwaukee Bucks (basketball_nba)
+  Team: Milwaukee Bucks
+  Odds: +550
+  EV: -3.92%
+
+Orlando Magic vs Toronto Raptors (basketball_nba)
+  Team: Toronto Raptors
+  Odds: -142
+  EV: -3.94%
+
+Illinois St Redbirds vs Auburn Tigers (basketball_ncaab)
+  Team: Illinois St Redbirds
+  Odds: +225
+  EV: -3.96%
+
+Orlando Magic vs Toronto Raptors (basketball_nba)
+  Team: Orlando Magic
+  Odds: +120
+  EV: -4.01%
+
+Chicago Bulls vs Memphis Grizzlies (basketball_nba)
+  Team: Chicago Bulls
+  Odds: +100
+  EV: -4.01%
+
+Utah Jazz vs Phoenix Suns (basketball_nba)
+  Team: Phoenix Suns
+  Odds: -1600
+  EV: -4.02%
+
+Los Angeles Clippers vs Milwaukee Bucks (basketball_nba)
+  Team: Los Angeles Clippers
+  Odds: -800
+  EV: -4.13%
+
+Illinois St Redbirds vs Auburn Tigers (basketball_ncaab)
+  Team: Auburn Tigers
+  Odds: -278
+  EV: -4.21%
+
+Golden State Warriors vs Denver Nuggets (basketball_nba)
+  Team: Denver Nuggets
+  Odds: -575
+  EV: -4.21%
+
+Purdue Boilermakers vs Arizona Wildcats (basketball_ncaab)
+  Team: Purdue Boilermakers
+  Odds: +220
+  EV: -4.43%
+
+Tennessee Volunteers vs Michigan Wolverines (basketball_ncaab)
+  Team: Michigan Wolverines
+  Odds: -340
+  EV: -4.58%
+
+Boston Celtics vs Charlotte Hornets (basketball_nba)
+  Team: Charlotte Hornets
+  Odds: -130
+  EV: -4.58%
+
+Tulsa Golden Hurricane vs New Mexico Lobos (basketball_ncaab)
+  Team: New Mexico Lobos
+  Odds: -180
+  EV: -4.71%
+
+Houston Rockets vs New Orleans Pelicans (basketball_nba)
+  Team: Houston Rockets
+  Odds: -238
+  EV: -4.8%
+
+UConn Huskies vs Duke Blue Devils (basketball_ncaab)
+  Team: UConn Huskies
+  Odds: +180
+  EV: -5.22%
+
+Washington Wizards vs Portland Trail Blazers (basketball_nba)
+  Team: Washington Wizards
+  Odds: +700
+  EV: -6.16%
+
+Miami Heat vs Indiana Pacers (basketball_nba)
+  Team: Indiana Pacers
+  Odds: +285
+  EV: -6.36%
+
+Sacramento Kings vs Brooklyn Nets (basketball_nba)
+  Team: Brooklyn Nets
+  Odds: -118
+  EV: -6.58%
+
+New York Knicks vs Oklahoma City Thunder (basketball_nba)
+  Team: New York Knicks
+  Odds: +285
+  EV: -6.81%
+
+Chicago Bulls vs Memphis Grizzlies (basketball_nba)
+  Team: Memphis Grizzlies
+  Odds: -130
+  EV: -7.99%
+
+(venv) PS C:\Users\jorda\ev-betting-tool> python main.py
+
+===== All Bets (Highest to Lowest EV) =====
+
+Tulsa Golden Hurricane vs New Mexico Lobos (basketball_ncaab)
+  Team: Tulsa Golden Hurricane
+  Odds: +150
+  EV: -3.14%
+
+Golden State Warriors vs Denver Nuggets (basketball_nba)
+  Team: Denver Nuggets
+  Odds: -650
+  EV: -3.61%
+
+Miami Heat vs Indiana Pacers (basketball_nba)
+  Team: Miami Heat
+  Odds: -395
+  EV: -3.71%
+
+New York Knicks vs Oklahoma City Thunder (basketball_nba)
+  Team: Oklahoma City Thunder
+  Odds: -360
+  EV: -3.73%
+
+Sacramento Kings vs Brooklyn Nets (basketball_nba)
+  Team: Sacramento Kings
+  Odds: +110
+  EV: -3.74%
+
+Los Angeles Clippers vs Milwaukee Bucks (basketball_nba)
+  Team: Los Angeles Clippers
+  Odds: -1350
+  EV: -3.78%
+
+Orlando Magic vs Toronto Raptors (basketball_nba)
+  Team: Toronto Raptors
+  Odds: -130
+  EV: -3.82%
+
+Washington Wizards vs Portland Trail Blazers (basketball_nba)
+  Team: Portland Trail Blazers
+  Odds: -1450
+  EV: -3.9%
+
+Houston Rockets vs New Orleans Pelicans (basketball_nba)
+  Team: New Orleans Pelicans
+  Odds: +195
+  EV: -3.96%
+
+Illinois St Redbirds vs Auburn Tigers (basketball_ncaab)
+  Team: Illinois St Redbirds
+  Odds: +225
+  EV: -3.96%
+
+Washington Wizards vs Portland Trail Blazers (basketball_nba)
+  Team: Washington Wizards
+  Odds: +850
+  EV: -4.02%
+
+Boston Celtics vs Charlotte Hornets (basketball_nba)
+  Team: Charlotte Hornets
+  Odds: -120
+  EV: -4.04%
+
+UConn Huskies vs Duke Blue Devils (basketball_ncaab)
+  Team: UConn Huskies
+  Odds: +200
+  EV: -4.05%
+
+Orlando Magic vs Toronto Raptors (basketball_nba)
+  Team: Orlando Magic
+  Odds: +110
+  EV: -4.16%
+
+Sacramento Kings vs Brooklyn Nets (basketball_nba)
+  Team: Brooklyn Nets
+  Odds: -130
+  EV: -4.18%
+
+Illinois St Redbirds vs Auburn Tigers (basketball_ncaab)
+  Team: Auburn Tigers
+  Odds: -278
+  EV: -4.21%
+
+Houston Rockets vs New Orleans Pelicans (basketball_nba)
+  Team: Houston Rockets
+  Odds: -238
+  EV: -4.22%
+
+UConn Huskies vs Duke Blue Devils (basketball_ncaab)
+  Team: Duke Blue Devils
+  Odds: -245
+  EV: -4.22%
+
+Boston Celtics vs Charlotte Hornets (basketball_nba)
+  Team: Boston Celtics
+  Odds: +100
+  EV: -4.68%
+
+Tulsa Golden Hurricane vs New Mexico Lobos (basketball_ncaab)
+  Team: New Mexico Lobos
+  Odds: -180
+  EV: -4.71%
+
+Tennessee Volunteers vs Michigan Wolverines (basketball_ncaab)
+  Team: Michigan Wolverines
+  Odds: -395
+  EV: -5.03%
+
+Miami Heat vs Indiana Pacers (basketball_nba)
+  Team: Indiana Pacers
+  Odds: +310
+  EV: -5.05%
+
+New York Knicks vs Oklahoma City Thunder (basketball_nba)
+  Team: New York Knicks
+  Odds: +285
+  EV: -5.07%
+
+Golden State Warriors vs Denver Nuggets (basketball_nba)
+  Team: Golden State Warriors
+  Odds: +470
+  EV: -6.19%
+
+Los Angeles Clippers vs Milwaukee Bucks (basketball_nba)
+  Team: Milwaukee Bucks
+  Odds: +800
+  EV: -6.27%
+
+Tennessee Volunteers vs Michigan Wolverines (basketball_ncaab)
+  Team: Tennessee Volunteers
+  Odds: +280
+  EV: -7.97%
+
+(venv) PS C:\Users\jorda\ev-betting-tool> python main.py
+
+===== All Bets (Highest to Lowest EV) =====
+
+Illinois Fighting Illini vs UConn Huskies (basketball_ncaab)
+  Team: Illinois Fighting Illini
+  Odds: -130
+  EV: -2.5%
+
+Michigan Wolverines vs Arizona Wildcats (basketball_ncaab)
+  Team: Arizona Wildcats
+  Odds: +102
+  EV: -2.88%
+
+Chicago Bulls vs San Antonio Spurs (basketball_nba)
+  Team: San Antonio Spurs
+  Odds: -1800
+  EV: -3.13%
+
+Washington Wizards vs Los Angeles Lakers (basketball_nba)
+  Team: Los Angeles Lakers
+  Odds: -1350
+  EV: -3.33%
+
+Philadelphia 76ers vs Miami Heat (basketball_nba)
+  Team: Philadelphia 76ers
+  Odds: -130
+  EV: -3.6%
+
+Cleveland Cavaliers vs Utah Jazz (basketball_nba)
+  Team: Cleveland Cavaliers
+  Odds: -1650
+  EV: -3.62%
+
+Detroit Pistons vs Oklahoma City Thunder (basketball_nba)
+  Team: Detroit Pistons
+  Odds: +500
+  EV: -3.67%
+
+Phoenix Suns vs Memphis Grizzlies (basketball_nba)
+  Team: Memphis Grizzlies
+  Odds: +525
+  EV: -3.74%
+
+Illinois St Redbirds vs Auburn Tigers (basketball_ncaab)
+  Team: Illinois St Redbirds
+  Odds: +240
+  EV: -3.9%
+
+Minnesota Timberwolves vs Dallas Mavericks (basketball_nba)
+  Team: Minnesota Timberwolves
+  Odds: -270
+  EV: -3.97%
+
+Tulsa Golden Hurricane vs New Mexico Lobos (basketball_ncaab)
+  Team: New Mexico Lobos
+  Odds: -180
+  EV: -3.99%
+
+Detroit Pistons vs Oklahoma City Thunder (basketball_nba)
+  Team: Oklahoma City Thunder
+  Odds: -700
+  EV: -4.06%
+
+Phoenix Suns vs Memphis Grizzlies (basketball_nba)
+  Team: Phoenix Suns
+  Odds: -750
+  EV: -4.12%
+
+Cleveland Cavaliers vs Utah Jazz (basketball_nba)
+  Team: Utah Jazz
+  Odds: +950
+  EV: -4.13%
+
+Illinois St Redbirds vs Auburn Tigers (basketball_ncaab)
+  Team: Auburn Tigers
+  Odds: -298
+  EV: -4.19%
+
+Boston Celtics vs Atlanta Hawks (basketball_nba)
+  Team: Atlanta Hawks
+  Odds: -122
+  EV: -4.24%
+
+Minnesota Timberwolves vs Dallas Mavericks (basketball_nba)
+  Team: Dallas Mavericks
+  Odds: +220
+  EV: -4.25%
+
+Boston Celtics vs Atlanta Hawks (basketball_nba)
+  Team: Boston Celtics
+  Odds: +102
+  EV: -4.3%
+
+Tulsa Golden Hurricane vs New Mexico Lobos (basketball_ncaab)
+  Team: Tulsa Golden Hurricane
+  Odds: +150
+  EV: -4.31%
+
+Philadelphia 76ers vs Miami Heat (basketball_nba)
+  Team: Miami Heat
+  Odds: +110
+  EV: -4.42%
+
+Michigan Wolverines vs Arizona Wildcats (basketball_ncaab)
+  Team: Michigan Wolverines
+  Odds: -122
+  EV: -5.52%
+
+Illinois Fighting Illini vs UConn Huskies (basketball_ncaab)
+  Team: UConn Huskies
+  Odds: +110
+  EV: -5.73%
+
+Chicago Bulls vs San Antonio Spurs (basketball_nba)
+  Team: Chicago Bulls
+  Odds: +1000
+  EV: -9.52%
+
+Washington Wizards vs Los Angeles Lakers (basketball_nba)
+  Team: Washington Wizards
+  Odds: +800
+  EV: -10.0%
+
+(venv) PS C:\Users\jorda\ev-betting-tool> python main.py
+
+===== All Bets (Highest to Lowest EV) =====
+
+Illinois Fighting Illini vs Michigan Wolverines (basketball_ncaab)
+  Team: Michigan Wolverines
+  Odds: -180
+  EV: -1.13%
+
+Charlotte Hornets vs Brooklyn Nets (basketball_nba)
+  Team: Brooklyn Nets
+  Odds: +1000
+  EV: -1.51%
+
+UConn Huskies vs Michigan Wolverines (basketball_ncaab)
+  Team: Michigan Wolverines
+  Odds: -230
+  EV: -2.34%
+
+Illinois Fighting Illini vs Arizona Wildcats (basketball_ncaab)
+  Team: Arizona Wildcats
+  Odds: -175
+  EV: -2.38%
+
+UConn Huskies vs Arizona Wildcats (basketball_ncaab)
+  Team: Arizona Wildcats
+  Odds: -218
+  EV: -2.45%
+
+Cleveland Cavaliers vs Los Angeles Lakers (basketball_nba)
+  Team: Los Angeles Lakers
+  Odds: -130
+  EV: -2.55%
+
+Toronto Raptors vs Detroit Pistons (basketball_nba)
+  Team: Detroit Pistons
+  Odds: -142
+  EV: -2.56%
+
+Illinois Fighting Illini vs UConn Huskies (basketball_ncaab)
+  Team: Illinois Fighting Illini
+  Odds: -130
+  EV: -2.65%
+
+Tulsa Golden Hurricane vs New Mexico Lobos (basketball_ncaab)
+  Team: Tulsa Golden Hurricane
+  Odds: +154
+  EV: -2.72%
+
+Phoenix Suns vs Orlando Magic (basketball_nba)
+  Team: Orlando Magic
+  Odds: -125
+  EV: -2.89%
+
+Illinois St Redbirds vs Auburn Tigers (basketball_ncaab)
+  Team: Illinois St Redbirds
+  Odds: +240
+  EV: -3.49%
+
+Dallas Mavericks vs Milwaukee Bucks (basketball_nba)
+  Team: Dallas Mavericks
+  Odds: -115
+  EV: -3.63%
+
+Charlotte Hornets vs Brooklyn Nets (basketball_nba)
+  Team: Charlotte Hornets
+  Odds: -1800
+  EV: -3.9%
+
+Michigan Wolverines vs Arizona Wildcats (basketball_ncaab)
+  Team: Michigan Wolverines
+  Odds: -122
+  EV: -4.05%
+
+Portland Trail Blazers vs Los Angeles Clippers (basketball_nba)
+  Team: Los Angeles Clippers
+  Odds: -225
+  EV: -4.09%
+
+Portland Trail Blazers vs Los Angeles Clippers (basketball_nba)
+  Team: Portland Trail Blazers
+  Odds: +185
+  EV: -4.25%
+
+New York Knicks vs Houston Rockets (basketball_nba)
+  Team: New York Knicks
+  Odds: -112
+  EV: -4.33%
+
+Illinois St Redbirds vs Auburn Tigers (basketball_ncaab)
+  Team: Auburn Tigers
+  Odds: -298
+  EV: -4.35%
+
+Michigan Wolverines vs Arizona Wildcats (basketball_ncaab)
+  Team: Arizona Wildcats
+  Odds: +102
+  EV: -4.52%
+
+New York Knicks vs Houston Rockets (basketball_nba)
+  Team: Houston Rockets
+  Odds: -108
+  EV: -4.75%
+
+Tulsa Golden Hurricane vs New Mexico Lobos (basketball_ncaab)
+  Team: New Mexico Lobos
+  Odds: -185
+  EV: -4.95%
+
+Dallas Mavericks vs Milwaukee Bucks (basketball_nba)
+  Team: Milwaukee Bucks
+  Odds: -105
+  EV: -5.4%
+
+Illinois Fighting Illini vs UConn Huskies (basketball_ncaab)
+  Team: UConn Huskies
+  Odds: +110
+  EV: -5.55%
+
+Phoenix Suns vs Orlando Magic (basketball_nba)
+  Team: Phoenix Suns
+  Odds: +105
+  EV: -5.6%
+
+Cleveland Cavaliers vs Los Angeles Lakers (basketball_nba)
+  Team: Cleveland Cavaliers
+  Odds: +110
+  EV: -5.67%
+
+Toronto Raptors vs Detroit Pistons (basketball_nba)
+  Team: Toronto Raptors
+  Odds: +120
+  EV: -5.79%
+
+Illinois Fighting Illini vs Arizona Wildcats (basketball_ncaab)
+  Team: Illinois Fighting Illini
+  Odds: +145
+  EV: -7.21%
+
+UConn Huskies vs Arizona Wildcats (basketball_ncaab)
+  Team: UConn Huskies
+  Odds: +180
+  EV: -7.24%
+
+UConn Huskies vs Michigan Wolverines (basketball_ncaab)
+  Odds: +190
+  EV: -7.39%
+
+Illinois Fighting Illini vs Michigan Wolverines (basketball_ncaab)
+  Team: Illinois Fighting Illini
+  Odds: +150
+  EV: -8.89%
+
+(venv) PS C:\Users\jorda\ev-betting-tool> python main.py
+
+===== All Bets (Highest to Lowest EV) =====
+
+Illinois Fighting Illini vs Michigan Wolverines (basketball_ncaab)
+  Team: Michigan Wolverines
+  Odds: -180
+  EV: -1.13%
+
+Charlotte Hornets vs Brooklyn Nets (basketball_nba)
+  Team: Brooklyn Nets
+  Odds: +1000
+  EV: -1.51%
+
+Illinois St Redbirds vs Auburn Tigers (basketball_ncaab)
+  Team: Illinois St Redbirds
+  Odds: +240
+  EV: -2.15%
+
+UConn Huskies vs Michigan Wolverines (basketball_ncaab)
+  Team: Michigan Wolverines
+  Odds: -230
+  EV: -2.34%
+
+Illinois Fighting Illini vs Arizona Wildcats (basketball_ncaab)
+  Team: Arizona Wildcats
+  Odds: -175
+  EV: -2.38%
+
+UConn Huskies vs Arizona Wildcats (basketball_ncaab)
+  Team: Arizona Wildcats
+  Odds: -218
+  EV: -2.45%
+
+Toronto Raptors vs Detroit Pistons (basketball_nba)
+  Team: Detroit Pistons
+  Odds: -142
+  EV: -2.5%
+
+Cleveland Cavaliers vs Los Angeles Lakers (basketball_nba)
+  Team: Los Angeles Lakers
+  Odds: -130
+  EV: -2.57%
+
+Illinois Fighting Illini vs UConn Huskies (basketball_ncaab)
+  Team: Illinois Fighting Illini
+  Odds: -130
+  EV: -2.65%
+
+Tulsa Golden Hurricane vs New Mexico Lobos (basketball_ncaab)
+  Team: Tulsa Golden Hurricane
+  Odds: +154
+  EV: -2.72%
+
+San Francisco Giants vs San Diego Padres (baseball_mlb)
+  Team: San Francisco Giants
+  Odds: -136
+  EV: -2.72%
+
+Phoenix Suns vs Orlando Magic (basketball_nba)
+  Team: Orlando Magic
+  Odds: -125
+  EV: -3.01%
+
+Colorado Rockies vs Toronto Blue Jays (baseball_mlb)
+  Team: Colorado Rockies
+  Odds: +224
+  EV: -3.38%
+
+Cleveland Guardians vs Los Angeles Dodgers (baseball_mlb)
+  Team: Cleveland Guardians
+  Odds: +218
+  EV: -3.41%
+
+Dallas Mavericks vs Milwaukee Bucks (basketball_nba)
+  Team: Dallas Mavericks
+  Odds: -115
+  EV: -3.54%
+
+Boston Red Sox vs Houston Astros (baseball_mlb)
+  Team: Houston Astros
+  Odds: -149
+  EV: -3.71%
+
+Detroit Tigers vs Arizona Diamondbacks (baseball_mlb)
+  Team: Detroit Tigers
+  Odds: -102
+  EV: -3.72%
+
+Michigan Wolverines vs Arizona Wildcats (basketball_ncaab)
+  Team: Michigan Wolverines
+  Odds: -122
+  EV: -3.84%
+
+Athletics vs Atlanta Braves (baseball_mlb)
+  Team: Athletics
+  Odds: +135
+  EV: -3.84%
+
+New York Yankees vs Seattle Mariners (baseball_mlb)
+  Team: New York Yankees
+  Odds: -110
+  EV: -3.87%
+
+Charlotte Hornets vs Brooklyn Nets (basketball_nba)
+  Team: Charlotte Hornets
+  Odds: -1800
+  EV: -3.9%
+
+Pittsburgh Pirates vs Cincinnati Reds (baseball_mlb)
+  Team: Cincinnati Reds
+  Odds: -108
+  EV: -3.96%
+
+Portland Trail Blazers vs Los Angeles Clippers (basketball_nba)
+  Team: Portland Trail Blazers
+  Odds: +185
+  EV: -4.1%
+
+New York Knicks vs Houston Rockets (basketball_nba)
+  Team: New York Knicks
+  Odds: -112
+  EV: -4.13%
+
+Portland Trail Blazers vs Los Angeles Clippers (basketball_nba)
+  Team: Los Angeles Clippers
+  Odds: -225
+  EV: -4.16%
+
+New York Mets vs St. Louis Cardinals (baseball_mlb)
+  Team: St. Louis Cardinals
+  Odds: +135
+  EV: -4.19%
+
+Tampa Bay Rays vs Milwaukee Brewers (baseball_mlb)
+  Team: Milwaukee Brewers
+  Odds: -131
+  EV: -4.19%
+
+Los Angeles Angels vs Chicago Cubs (baseball_mlb)
+  Team: Chicago Cubs
+  Odds: -143
+  EV: -4.2%
+
+Chicago White Sox vs Miami Marlins (baseball_mlb)
+  Team: Miami Marlins
+  Odds: -156
+  EV: -4.22%
+
+Texas Rangers vs Baltimore Orioles (baseball_mlb)
+  Team: Baltimore Orioles
+  Odds: +109
+  EV: -4.33%
+
+Washington Nationals vs Philadelphia Phillies (baseball_mlb)
+  Team: Washington Nationals
+  Odds: +159
+  EV: -4.37%
+
+Texas Rangers vs Baltimore Orioles (baseball_mlb)
+  Team: Texas Rangers
+  Odds: -131
+  EV: -4.39%
+
+Washington Nationals vs Philadelphia Phillies (baseball_mlb)
+  Team: Philadelphia Phillies
+  Odds: -194
+  EV: -4.41%
+
+New York Mets vs St. Louis Cardinals (baseball_mlb)
+  Team: New York Mets
+  Odds: -163
+  EV: -4.43%
+
+Los Angeles Angels vs Chicago Cubs (baseball_mlb)
+  Team: Los Angeles Angels
+  Odds: +119
+  EV: -4.47%
+
+Tampa Bay Rays vs Milwaukee Brewers (baseball_mlb)
+  Team: Tampa Bay Rays
+  Odds: +109
+  EV: -4.55%
+
+Chicago White Sox vs Miami Marlins (baseball_mlb)
+  Team: Chicago White Sox
+  Odds: +129
+  EV: -4.66%
+
+Athletics vs Atlanta Braves (baseball_mlb)
+  Team: Atlanta Braves
+  Odds: -163
+  EV: -4.67%
+
+Cleveland Guardians vs Los Angeles Dodgers (baseball_mlb)
+  Team: Los Angeles Dodgers
+  Odds: -271
+  EV: -4.68%
+
+Michigan Wolverines vs Arizona Wildcats (basketball_ncaab)
+  Team: Arizona Wildcats
+  Odds: +102
+  EV: -4.74%
+
+Colorado Rockies vs Toronto Blue Jays (baseball_mlb)
+  Team: Toronto Blue Jays
+  Odds: -280
+  EV: -4.76%
+
+Illinois St Redbirds vs Auburn Tigers (basketball_ncaab)
+  Team: Auburn Tigers
+  Odds: -298
+  EV: -4.88%
+
+New York Knicks vs Houston Rockets (basketball_nba)
+  Team: Houston Rockets
+  Odds: -108
+  EV: -4.95%
+
+Tulsa Golden Hurricane vs New Mexico Lobos (basketball_ncaab)
+  Team: New Mexico Lobos
+  Odds: -185
+  EV: -4.95%
+
+Detroit Tigers vs Arizona Diamondbacks (baseball_mlb)
+  Team: Arizona Diamondbacks
+  Odds: -118
+  EV: -5.07%
+
+Pittsburgh Pirates vs Cincinnati Reds (baseball_mlb)
+  Team: Pittsburgh Pirates
+  Odds: -112
+  EV: -5.11%
+
+New York Yankees vs Seattle Mariners (baseball_mlb)
+  Team: Seattle Mariners
+  Odds: -110
+  EV: -5.22%
+
+Phoenix Suns vs Orlando Magic (basketball_nba)
+  Team: Phoenix Suns
+  Odds: +105
+  EV: -5.46%
+
+Boston Red Sox vs Houston Astros (baseball_mlb)
+  Team: Boston Red Sox
+  Odds: +123
+  EV: -5.48%
+
+Dallas Mavericks vs Milwaukee Bucks (basketball_nba)
+  Team: Milwaukee Bucks
+  Odds: -105
+  EV: -5.49%
+
+Illinois Fighting Illini vs UConn Huskies (basketball_ncaab)
+  Team: UConn Huskies
+  Odds: +110
+  EV: -5.55%
+
+Cleveland Cavaliers vs Los Angeles Lakers (basketball_nba)
+  Team: Cleveland Cavaliers
+  Odds: +110
+  EV: -5.64%
+
+Toronto Raptors vs Detroit Pistons (basketball_nba)
+  Team: Toronto Raptors
+  Odds: +120
+  EV: -5.86%
+
+San Francisco Giants vs San Diego Padres (baseball_mlb)
+  Team: San Diego Padres
+  Odds: +113
+  EV: -6.4%
+
+Illinois Fighting Illini vs Arizona Wildcats (basketball_ncaab)
+  Team: Illinois Fighting Illini
+  Odds: +145
+  EV: -7.21%
+
+UConn Huskies vs Arizona Wildcats (basketball_ncaab)
+  Team: UConn Huskies
+  Odds: +180
+  EV: -7.24%
+
+UConn Huskies vs Michigan Wolverines (basketball_ncaab)
+  Odds: +190
+  EV: -7.39%
+
+Illinois Fighting Illini vs Michigan Wolverines (basketball_ncaab)
+  Team: Illinois Fighting Illini
+  Odds: +150
+  EV: -8.89%
