@@ -12,8 +12,13 @@ from bet_tracker import (
 from config import (
     CALIBRATION_SHRINK,
     CANDIDATE_BOOKS,
+    DEFAULT_SHARP_WEIGHT,
+    DYNAMIC_CALIBRATION_ENABLED,
+    DYNAMIC_CALIBRATION_MIN_PICKS,
     EXTREME_PLUS_MONEY,
     EV_FLOOR,
+    KELLY_FRACTION,
+    KELLY_MAX_BET_FRACTION,
     LINE_WEIGHT,
     MARKET_WEIGHT,
     MAX_LOOKAHEAD_HOURS,
@@ -30,12 +35,13 @@ from config import (
     PROD_REQUIRE_MODEL_MLB,
     REPORT_TIMEZONE,
     REQUIRE_MODEL_FOR_MLB,
+    SHARP_BOOK_WEIGHTS,
 )
 from odds_api import get_odds
-from probability import american_to_prob, remove_vig, sharp_probability, calibrated_hybrid_probability
-from ev_calculator import calculate_ev
+from probability import american_to_prob, remove_vig, sharp_probability, calibrated_hybrid_probability, kelly_criterion
+from ev_calculator import calculate_ev, calculate_kelly
 from model_input import get_model_prediction, model_predictions_count, normalize_team_code
-from line_movement import record_line_snapshot, get_market_line_signal
+from line_movement import record_line_snapshot, get_market_line_signal, detect_stale_lines
 
 
 def _normalize_book_name(title: str) -> str:
@@ -46,6 +52,12 @@ def _normalize_book_name(title: str) -> str:
         "williamhillus": "caesars",
     }
     return aliases.get(normalized, normalized)
+
+
+def _get_sharp_weight(book_title: str) -> float:
+    """Look up sharpness weight for a reference book."""
+    normalized = _normalize_book_name(book_title)
+    return SHARP_BOOK_WEIGHTS.get(normalized, DEFAULT_SHARP_WEIGHT)
 
 
 def _parse_commence_time(value: Optional[str]) -> Optional[datetime]:
@@ -100,17 +112,13 @@ def _extract_home_away_prices(outcomes: List[Dict[str, Any]], home_team: str, aw
     return prices[home_team], prices[away_team]
 
 
-def _get_team_line_for_book(book_title: str, odds_home: float, odds_away: float, home_team: str, target_team: str) -> float:
-    return odds_home if target_team == home_team else odds_away
-
-
 def _select_best_and_dk_line(candidate_lines: List[Tuple[str, float, float]], home_team: str, target_team: str) -> Tuple[Optional[str], Optional[float], Optional[float]]:
     best_book = None
     best_odds = None
     dk_odds = None
 
     for book_title, odds_home, odds_away in candidate_lines:
-        team_odds = _get_team_line_for_book(book_title, odds_home, odds_away, home_team, target_team)
+        team_odds = odds_home if target_team == home_team else odds_away
 
         if best_odds is None or team_odds > best_odds:
             best_odds = team_odds
@@ -139,6 +147,40 @@ def _sport_priority(sport_key: str) -> int:
     return priority.get(sport_key, 99)
 
 
+def _get_dynamic_calibration_shrink() -> float:
+    """
+    Compute calibration shrink from historical performance.
+    Well-calibrated bettors (low Brier score) should have zero shrink.
+    """
+    if not DYNAMIC_CALIBRATION_ENABLED:
+        return CALIBRATION_SHRINK
+
+    try:
+        diag = performance_diagnostics()
+        sports = diag.get("sports", {})
+        total_graded = sum(s.get("graded", 0) for s in sports.values())
+
+        if total_graded < DYNAMIC_CALIBRATION_MIN_PICKS:
+            return CALIBRATION_SHRINK
+
+        # Weighted average Brier score across sports
+        total_brier = sum(s.get("avg_brier", 0.25) * s.get("graded", 0) for s in sports.values())
+        avg_brier = total_brier / total_graded if total_graded > 0 else 0.25
+
+        # Well-calibrated: Brier < 0.22 → shrink = 0
+        # Poorly calibrated: Brier > 0.28 → max shrink = 0.08
+        if avg_brier < 0.22:
+            return 0.0
+        elif avg_brier > 0.28:
+            return 0.08
+        else:
+            # Linear interpolation between 0.22 and 0.28
+            return (avg_brier - 0.22) / (0.28 - 0.22) * 0.08
+
+    except Exception:
+        return CALIBRATION_SHRINK
+
+
 def _evaluate_bet(
     team: str,
     true_prob: float,
@@ -149,12 +191,14 @@ def _evaluate_bet(
     min_edge: Optional[float],
     model_pred: Optional[Dict[str, Any]],
     game_info: Dict[str, Any],
-    prob_info: Dict[str, Any]
+    prob_info: Dict[str, Any],
+    stale_books: List[str],
 ) -> Tuple[Optional[Dict[str, Any]], Optional[Dict[str, Any]]]:
     ev = calculate_ev(true_prob, best_odds)
     implied_prob = american_to_prob(best_odds)
     prob_edge = true_prob - implied_prob
-    
+    kelly_size = calculate_kelly(true_prob, best_odds, KELLY_FRACTION, KELLY_MAX_BET_FRACTION)
+
     reject_reason = None
     if ev < ev_threshold:
         reject_reason = "ev_below_threshold"
@@ -171,7 +215,10 @@ def _evaluate_bet(
             "ev": ev,
             "reason": reject_reason,
         }
-    
+
+    # Flag stale lines but don't reject — let the bettor decide
+    stale_warning = best_book in stale_books
+
     return {
         "event_id": game_info["event_id"],
         "commence_time": game_info["commence_time"],
@@ -191,19 +238,22 @@ def _evaluate_bet(
         "final_prob": true_prob,
         "implied_prob": implied_prob,
         "probability_edge": prob_edge,
+        "kelly_fraction": kelly_size,
+        "stale_line_warning": stale_warning,
     }, None
 
 
 def _print_results(
-    bets: List[Dict[str, Any]], 
-    rejections: List[Dict[str, Any]], 
-    scan_date: str, 
-    ev_threshold: float, 
-    model_stats: Dict[str, Any], 
-    model_rows_for_date: int, 
-    explain: bool, 
-    show_rejections: bool, 
-    min_edge: Optional[float]
+    bets: List[Dict[str, Any]],
+    rejections: List[Dict[str, Any]],
+    scan_date: str,
+    ev_threshold: float,
+    model_stats: Dict[str, Any],
+    model_rows_for_date: int,
+    explain: bool,
+    show_rejections: bool,
+    min_edge: Optional[float],
+    calibration_shrink_used: float,
 ) -> None:
     avg_ev = sum(b["ev"] for b in bets) / len(bets)
     avg_edge = sum(float(b.get("probability_edge") or 0.0) for b in bets) / len(bets)
@@ -212,7 +262,8 @@ def _print_results(
     print(f"Scan Date ({REPORT_TIMEZONE.key}): {scan_date}")
     print(
         f"Run Summary: picks={len(bets)} | avg_ev={avg_ev * 100:.2f}% | "
-        f"avg_probability_edge={avg_edge * 100:.2f}pp"
+        f"avg_probability_edge={avg_edge * 100:.2f}pp | "
+        f"calibration_shrink={calibration_shrink_used:.3f}"
     )
     print("")
 
@@ -247,13 +298,16 @@ def _print_results(
         dk_odds_str = "n/a" if dk_odds is None else (f"+{dk_odds}" if dk_odds > 0 else f"{dk_odds}")
         model_rank = bet.get("model_rank")
         model_badge = f" [Model Rank: {model_rank}]" if model_rank else ""
+        kelly_pct = bet.get("kelly_fraction", 0.0) * 100
+        stale_flag = " [STALE LINE]" if bet.get("stale_line_warning") else ""
 
         print(f"{bet['game']} ({bet['sport']})")
-        print(f"  Best Book: {bet['book']}")
+        print(f"  Best Book: {bet['book']}{stale_flag}")
         print(f"  Team: {bet['team']}")
         print(f"  Best Line: {odds_str}")
         print(f"  DraftKings Line: {dk_odds_str}")
-        print(f"  EV: {round(bet['ev'] * 100, 2)}%{model_badge}\n")
+        print(f"  EV: {round(bet['ev'] * 100, 2)}%{model_badge}")
+        print(f"  Kelly: {kelly_pct:.1f}% of bankroll\n")
 
         if explain:
             market_prob = bet.get("market_prob")
@@ -274,7 +328,8 @@ def _print_results(
             else:
                 print("    Model Prob: n/a (market-only fallback)")
             print(f"    Base Blend (no line): {base_blend_prob * 100:.2f}%")
-            print(f"    Line Signal: {line_signal_value:.4f} | Line Impact: {line_impact * 100:.2f}pp")
+            signal_dir = "away" if line_signal_value > 0 else ("home" if line_signal_value < 0 else "none")
+            print(f"    Line Signal: {line_signal_value:+.4f} (direction: {signal_dir}) | Line Impact: {line_impact * 100:.2f}pp")
             print(f"    Final True Prob: {final_prob * 100:.2f}%")
             print(f"    Implied Prob @ Best Line: {implied_prob * 100:.2f}%")
             print(f"    Probability Edge: {edge * 100:.2f}pp")
@@ -309,6 +364,9 @@ def find_ev_bets(
         scan_date = datetime.now(REPORT_TIMEZONE).date().isoformat()
 
     ev_threshold = 0.0001 if positive_only else EV_FLOOR
+
+    # Dynamic calibration based on historical performance
+    calibration_shrink = _get_dynamic_calibration_shrink()
 
     data = get_odds()
 
@@ -380,6 +438,7 @@ def find_ev_bets(
 
         reference_prob_pairs = []
         reference_odds_list = []
+        reference_sharp_weights = []
         candidate_lines = []
 
         for bookmaker in game.get("bookmakers", []):
@@ -405,6 +464,7 @@ def find_ev_bets(
             else:
                 reference_prob_pairs.append((nv_prob_home, nv_prob_away))
                 reference_odds_list.append((odds_home, odds_away))
+                reference_sharp_weights.append(_get_sharp_weight(bookmaker.get("title")))
 
         if not candidate_lines:
             continue
@@ -418,16 +478,17 @@ def find_ev_bets(
                 nv_prob_home, nv_prob_away = remove_vig(prob_home, prob_away)
                 reference_prob_pairs.append((nv_prob_home, nv_prob_away))
                 reference_odds_list.append((odds_home, odds_away))
+                reference_sharp_weights.append(DEFAULT_SHARP_WEIGHT)
 
         if len(reference_prob_pairs) < 2:
             continue
 
-        sharp_probs = sharp_probability(reference_prob_pairs, reference_odds_list)
+        sharp_probs = sharp_probability(reference_prob_pairs, reference_odds_list, reference_sharp_weights)
         if not sharp_probs:
             continue
 
         market_prob_home, market_prob_away = sharp_probs
-        
+
         if sport == "baseball_mlb":
             model_stats["mlb_games_seen"] += 1
 
@@ -438,8 +499,12 @@ def find_ev_bets(
         for book_title, odds_home, odds_away in candidate_lines:
             record_line_snapshot(event_id, book_title, odds_away, odds_home)
 
+        # Signed directional signal
         line_signal = get_market_line_signal(event_id, candidate_lines)
-        
+
+        # Stale line detection
+        stale_books = detect_stale_lines(event_id, candidate_lines)
+
         if model_pred:
             if sport == "baseball_mlb":
                 model_stats["mlb_model_matches"] += 1
@@ -458,7 +523,7 @@ def find_ev_bets(
             market_weight=MARKET_WEIGHT,
             model_weight=MODEL_WEIGHT,
             line_weight=LINE_WEIGHT,
-            calibration_shrink=CALIBRATION_SHRINK,
+            calibration_shrink=calibration_shrink,
         )
         base_blend_prob_away = blend_components["base_blend_away"]
         base_blend_prob_home = blend_components["base_blend_home"]
@@ -479,7 +544,7 @@ def find_ev_bets(
                     "reason": f"model_rank_above_limit({model_pred['confidence']} > {max_model_rank})",
                 })
                 continue
-        
+
         home_best_book, home_best_odds, home_dk_odds = _select_best_and_dk_line(
             candidate_lines, home_team, home_team
         )
@@ -504,10 +569,12 @@ def find_ev_bets(
             }
             bet, rejection = _evaluate_bet(
                 home_team, true_prob_home, home_best_odds, home_best_book, home_dk_odds,
-                ev_threshold, min_edge, model_pred, game_info, prob_info
+                ev_threshold, min_edge, model_pred, game_info, prob_info, stale_books
             )
-            if bet: bets.append(bet)
-            if rejection: rejections.append(rejection)
+            if bet:
+                bets.append(bet)
+            if rejection:
+                rejections.append(rejection)
 
         if away_best_odds is not None:
             prob_info = {
@@ -519,10 +586,12 @@ def find_ev_bets(
             }
             bet, rejection = _evaluate_bet(
                 away_team, true_prob_away, away_best_odds, away_best_book, away_dk_odds,
-                ev_threshold, min_edge, model_pred, game_info, prob_info
+                ev_threshold, min_edge, model_pred, game_info, prob_info, stale_books
             )
-            if bet: bets.append(bet)
-            if rejection: rejections.append(rejection)
+            if bet:
+                bets.append(bet)
+            if rejection:
+                rejections.append(rejection)
 
     if not bets:
         print(f"Scan Date ({REPORT_TIMEZONE.key}): {scan_date}")
@@ -551,7 +620,10 @@ def find_ev_bets(
 
     bets.sort(key=lambda x: (_sport_priority(x.get("sport")), -x["ev"]))
 
-    _print_results(bets, rejections, scan_date, ev_threshold, model_stats, model_rows_for_date, explain, show_rejections, min_edge)
+    _print_results(
+        bets, rejections, scan_date, ev_threshold, model_stats, model_rows_for_date,
+        explain, show_rejections, min_edge, calibration_shrink
+    )
 
     inserted = append_new_picks(bets)
     graded = grade_pending_picks()
