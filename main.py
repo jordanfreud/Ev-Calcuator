@@ -38,7 +38,7 @@ from config import (
     SHARP_BOOK_WEIGHTS,
 )
 from odds_api import get_odds
-from probability import american_to_prob, remove_vig, sharp_probability, calibrated_hybrid_probability, kelly_criterion
+from probability import american_to_prob, remove_vig, sharp_probability, calibrated_hybrid_probability
 from ev_calculator import calculate_ev, calculate_kelly
 from model_input import get_model_prediction, model_predictions_count, normalize_team_code
 from line_movement import record_line_snapshot, get_market_line_signal, detect_stale_lines
@@ -197,7 +197,7 @@ def _evaluate_bet(
     ev = calculate_ev(true_prob, best_odds)
     implied_prob = american_to_prob(best_odds)
     prob_edge = true_prob - implied_prob
-    kelly_size = calculate_kelly(true_prob, best_odds, KELLY_FRACTION, KELLY_MAX_BET_FRACTION)
+    kelly_result = calculate_kelly(true_prob, best_odds, KELLY_FRACTION, KELLY_MAX_BET_FRACTION)
 
     reject_reason = None
     if ev < ev_threshold:
@@ -238,7 +238,8 @@ def _evaluate_bet(
         "final_prob": true_prob,
         "implied_prob": implied_prob,
         "probability_edge": prob_edge,
-        "kelly_fraction": kelly_size,
+        "kelly_fraction": kelly_result["recommended"],
+        "kelly_detail": kelly_result,
         "stale_line_warning": stale_warning,
     }, None
 
@@ -298,7 +299,10 @@ def _print_results(
         dk_odds_str = "n/a" if dk_odds is None else (f"+{dk_odds}" if dk_odds > 0 else f"{dk_odds}")
         model_rank = bet.get("model_rank")
         model_badge = f" [Model Rank: {model_rank}]" if model_rank else ""
-        kelly_pct = bet.get("kelly_fraction", 0.0) * 100
+        kelly_detail = bet.get("kelly_detail", {})
+        kelly_rec = kelly_detail.get("recommended", 0.0) * 100
+        kelly_fk = kelly_detail.get("fractional_kelly", 0.0) * 100
+        kelly_dd = kelly_detail.get("drawdown_kelly", 0.0) * 100
         stale_flag = " [STALE LINE]" if bet.get("stale_line_warning") else ""
 
         print(f"{bet['game']} ({bet['sport']})")
@@ -307,7 +311,7 @@ def _print_results(
         print(f"  Best Line: {odds_str}")
         print(f"  DraftKings Line: {dk_odds_str}")
         print(f"  EV: {round(bet['ev'] * 100, 2)}%{model_badge}")
-        print(f"  Kelly: {kelly_pct:.1f}% of bankroll\n")
+        print(f"  Kelly: {kelly_rec:.1f}% of bankroll  (quarter={kelly_fk:.1f}% | drawdown-adj={kelly_dd:.1f}%)\n")
 
         if explain:
             market_prob = bet.get("market_prob")

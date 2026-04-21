@@ -1,6 +1,11 @@
 import statistics
 from typing import List, Tuple, Dict, Optional
 
+from keeks.binary_strategies import (
+    FractionalKellyCriterion,
+    DrawdownAdjustedKelly,
+)
+
 
 def _clamp01(value: float) -> float:
     return max(0.0, min(1.0, value))
@@ -31,34 +36,47 @@ def calculate_vig(prob1: float, prob2: float) -> float:
     return (prob1 + prob2) - 1
 
 
-def kelly_criterion(true_prob: float, odds: float, fraction: float = 0.25, max_bet: float = 0.05) -> float:
+def kelly_criterion(
+    true_prob: float,
+    odds: float,
+    fraction: float = 0.25,
+    max_bet: float = 0.05,
+    max_drawdown: Optional[float] = None,
+) -> Dict[str, float]:
     """
-    Fractional Kelly criterion for optimal bet sizing.
+    Advanced Kelly criterion using the keeks library.
 
-    Args:
-        true_prob: Your estimated true win probability.
-        odds: American odds for the bet.
-        fraction: Kelly fraction (0.25 = quarter Kelly, conservative).
-        max_bet: Maximum fraction of bankroll to risk.
+    Returns a dict with multiple sizing strategies so the bettor can choose:
+      - fractional_kelly: Conservative quarter-Kelly (default).
+      - drawdown_kelly: Drawdown-adjusted sizing that caps max acceptable loss streak.
+      - recommended: The more conservative of the two (what you should actually bet).
 
-    Returns:
-        Recommended bet size as fraction of bankroll (0.0 if no edge).
+    Powered by keeks (github.com/wdm0006/keeks).
     """
     decimal_odds = american_to_decimal(odds)
-    b = decimal_odds - 1  # net profit per unit wagered
-    q = 1 - true_prob
+    payoff = decimal_odds - 1  # net profit per unit wagered
 
-    if b <= 0:
-        return 0.0
+    if payoff <= 0 or true_prob <= 0:
+        return {"fractional_kelly": 0.0, "drawdown_kelly": 0.0, "recommended": 0.0}
 
-    # Full Kelly: (bp - q) / b
-    full_kelly = (b * true_prob - q) / b
+    # Fractional Kelly
+    fk = FractionalKellyCriterion(payoff=payoff, loss=1.0, transaction_cost=0.0, fraction=fraction)
+    fk_size = fk.evaluate(true_prob, 1.0)  # bankroll=1.0 gives fraction directly
+    fk_size = max(0.0, min(fk_size, max_bet))
 
-    if full_kelly <= 0:
-        return 0.0
+    # Drawdown-Adjusted Kelly
+    dd = max_drawdown if max_drawdown else 0.15
+    dk = DrawdownAdjustedKelly(payoff=payoff, loss=1.0, transaction_cost=0.0, max_acceptable_drawdown=dd)
+    dk_size = dk.evaluate(true_prob, 1.0)
+    dk_size = max(0.0, min(dk_size, max_bet))
 
-    sized = full_kelly * fraction
-    return min(sized, max_bet)
+    recommended = min(fk_size, dk_size)
+
+    return {
+        "fractional_kelly": round(fk_size, 5),
+        "drawdown_kelly": round(dk_size, 5),
+        "recommended": round(recommended, 5),
+    }
 
 
 def sharp_probability(
