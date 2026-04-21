@@ -1,5 +1,6 @@
 import argparse
 from datetime import datetime, timezone
+from typing import List, Dict, Any, Optional, Tuple
 
 from bet_tracker import (
     append_new_picks,
@@ -37,7 +38,7 @@ from model_input import get_model_prediction, model_predictions_count, normalize
 from line_movement import record_line_snapshot, get_market_line_signal
 
 
-def _normalize_book_name(title):
+def _normalize_book_name(title: str) -> str:
     normalized = "".join(ch for ch in (title or "").lower() if ch.isalnum())
     aliases = {
         "betonline": "betonlineag",
@@ -47,13 +48,13 @@ def _normalize_book_name(title):
     return aliases.get(normalized, normalized)
 
 
-def _parse_commence_time(value):
+def _parse_commence_time(value: Optional[str]) -> Optional[datetime]:
     if not value:
         return None
     return datetime.fromisoformat(value.replace("Z", "+00:00"))
 
 
-def _is_real_matchup(game):
+def _is_real_matchup(game: Dict[str, Any]) -> bool:
     if not game.get("id"):
         return False
 
@@ -73,7 +74,7 @@ def _is_real_matchup(game):
     return True
 
 
-def _on_scan_date(game, scan_date: str):
+def _on_scan_date(game: Dict[str, Any], scan_date: str) -> bool:
     commence_time = _parse_commence_time(game.get("commence_time"))
     if not commence_time:
         return False
@@ -81,14 +82,14 @@ def _on_scan_date(game, scan_date: str):
     return local_date == scan_date
 
 
-def _local_game_date(game):
+def _local_game_date(game: Dict[str, Any]) -> Optional[str]:
     commence_time = _parse_commence_time(game.get("commence_time"))
     if not commence_time:
         return None
     return commence_time.astimezone(REPORT_TIMEZONE).date().isoformat()
 
 
-def _extract_home_away_prices(outcomes, home_team, away_team):
+def _extract_home_away_prices(outcomes: List[Dict[str, Any]], home_team: str, away_team: str) -> Optional[Tuple[float, float]]:
     if len(outcomes) != 2:
         return None
 
@@ -99,24 +100,11 @@ def _extract_home_away_prices(outcomes, home_team, away_team):
     return prices[home_team], prices[away_team]
 
 
-def _format_book_lines(book_lines, home_team, away_team):
-    if not book_lines:
-        return "n/a"
-
-    parts = []
-    for book_title in sorted(book_lines):
-        odds_home, odds_away = book_lines[book_title]
-        home_str = f"+{odds_home}" if odds_home > 0 else f"{odds_home}"
-        away_str = f"+{odds_away}" if odds_away > 0 else f"{odds_away}"
-        parts.append(f"{book_title}: {home_team} {home_str} | {away_team} {away_str}")
-    return " ; ".join(parts)
-
-
-def _get_team_line_for_book(book_title, odds_home, odds_away, home_team, target_team):
+def _get_team_line_for_book(book_title: str, odds_home: float, odds_away: float, home_team: str, target_team: str) -> float:
     return odds_home if target_team == home_team else odds_away
 
 
-def _select_best_and_dk_line(candidate_lines, home_team, target_team):
+def _select_best_and_dk_line(candidate_lines: List[Tuple[str, float, float]], home_team: str, target_team: str) -> Tuple[Optional[str], Optional[float], Optional[float]]:
     best_book = None
     best_odds = None
     dk_odds = None
@@ -134,7 +122,7 @@ def _select_best_and_dk_line(candidate_lines, home_team, target_team):
     return best_book, best_odds, dk_odds
 
 
-def _pick_best_per_game(bets):
+def _pick_best_per_game(bets: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     best_by_event = {}
     for bet in bets:
         event_id = bet.get("event_id")
@@ -143,7 +131,7 @@ def _pick_best_per_game(bets):
     return list(best_by_event.values())
 
 
-def _sport_priority(sport_key):
+def _sport_priority(sport_key: str) -> int:
     priority = {
         "baseball_mlb": 0,
         "basketball_nba": 1,
@@ -151,339 +139,72 @@ def _sport_priority(sport_key):
     return priority.get(sport_key, 99)
 
 
-def find_ev_bets(
-    scan_date=None,
-    explain=False,
-    positive_only=False,
-    one_per_game=True,
-    min_edge=MIN_PROBABILITY_EDGE,
-    require_model_mlb=REQUIRE_MODEL_FOR_MLB,
-    max_model_rank=MAX_MODEL_RANK,
-    show_rejections=False,
-    diagnostics=False,
-    enforce_model_rows=False,
-    min_model_rows=MIN_MODEL_ROWS_FOR_DATE,
-):
-    if scan_date is None:
-        scan_date = datetime.now(REPORT_TIMEZONE).date().isoformat()
+def _evaluate_bet(
+    team: str,
+    true_prob: float,
+    best_odds: float,
+    best_book: str,
+    dk_odds: Optional[float],
+    ev_threshold: float,
+    min_edge: Optional[float],
+    model_pred: Optional[Dict[str, Any]],
+    game_info: Dict[str, Any],
+    prob_info: Dict[str, Any]
+) -> Tuple[Optional[Dict[str, Any]], Optional[Dict[str, Any]]]:
+    ev = calculate_ev(true_prob, best_odds)
+    implied_prob = american_to_prob(best_odds)
+    prob_edge = true_prob - implied_prob
+    
+    reject_reason = None
+    if ev < ev_threshold:
+        reject_reason = "ev_below_threshold"
+    elif min_edge is not None and prob_edge < min_edge:
+        reject_reason = f"prob_edge_below_min({prob_edge:.4f} < {min_edge:.4f})"
+    elif best_odds >= EXTREME_PLUS_MONEY and (not model_pred or int(model_pred.get("confidence", 99)) > MAX_MODEL_RANK_FOR_EXTREME):
+        reject_reason = "extreme_plus_money_without_strong_model"
 
-    ev_threshold = 0.0001 if positive_only else EV_FLOOR
+    if reject_reason:
+        return None, {
+            "game": game_info["game_str"],
+            "sport": game_info["sport"],
+            "team": team,
+            "ev": ev,
+            "reason": reject_reason,
+        }
+    
+    return {
+        "event_id": game_info["event_id"],
+        "commence_time": game_info["commence_time"],
+        "ev": ev,
+        "team": team,
+        "odds": best_odds,
+        "book": best_book,
+        "game": game_info["game_str"],
+        "sport": game_info["sport"],
+        "draftkings_odds": dk_odds,
+        "model_source": prob_info["model_source"],
+        "model_rank": model_pred.get("confidence") if model_pred else None,
+        "market_prob": prob_info["market_prob"],
+        "model_prob": prob_info["model_prob"],
+        "base_blend_prob": prob_info["base_blend_prob"],
+        "line_signal": prob_info["line_signal"],
+        "final_prob": true_prob,
+        "implied_prob": implied_prob,
+        "probability_edge": prob_edge,
+    }, None
 
-    data = get_odds()
 
-    if not data:
-        print("No data returned")
-        return
-
-    qualifying_games = [g for g in data if _is_real_matchup(g)]
-    available_dates = sorted({d for d in (_local_game_date(g) for g in qualifying_games) if d})
-
-    auto_fallback_scan_date = False
-    games_for_scan_date = [g for g in qualifying_games if _on_scan_date(g, scan_date)]
-    if not games_for_scan_date and available_dates:
-        # If the requested date has no qualifying games (common for late-night runs),
-        # automatically scan the nearest available date in-feed.
-        nearest_dates = [d for d in available_dates if d >= scan_date]
-        fallback_date = nearest_dates[0] if nearest_dates else available_dates[-1]
-        if fallback_date != scan_date:
-            print(
-                f"No qualifying games found for requested date {scan_date}. "
-                f"Using nearest available date {fallback_date}."
-            )
-            scan_date = fallback_date
-            auto_fallback_scan_date = True
-            games_for_scan_date = [g for g in qualifying_games if _on_scan_date(g, scan_date)]
-
-    if not games_for_scan_date:
-        print(f"Scan Date ({REPORT_TIMEZONE.key}): {scan_date}")
-        print("No qualifying games available from odds feed for this date window.")
-        return
-
-    bets = []
-    rejections = []
-    scan_stats = {
-        "games_from_feed": len(data),
-        "games_qualifying_window": len(qualifying_games),
-        "games_on_scan_date": len(games_for_scan_date),
-        "games_with_candidate_books": 0,
-    }
-    model_stats = {
-        "mlb_games_seen": 0,
-        "mlb_model_matches": 0,
-        "mlb_model_misses": 0,
-        "mlb_missing_matchups": [],
-    }
-
-    model_rows_for_date = model_predictions_count(scan_date)
-
-    if enforce_model_rows and model_rows_for_date < min_model_rows:
-        if auto_fallback_scan_date:
-            print(
-                f"Model rows for fallback scan date {scan_date}: {model_rows_for_date}. "
-                "Continuing in market-only mode for this run."
-            )
-            require_model_mlb = False
-        else:
-            print(f"Scan Date ({REPORT_TIMEZONE.key}): {scan_date}")
-            print(
-                f"ABORTED: strict run requires at least {min_model_rows} model rows for date, "
-                f"found {model_rows_for_date}."
-            )
-            print(
-                "Action: load today model picks first, then rerun production profile."
-            )
-            return
-
-    for game in games_for_scan_date:
-
-        event_id = game.get("id")
-        commence_time = game.get("commence_time")
-        home_team = game.get("home_team")
-        away_team = game.get("away_team")
-        sport = game.get("sport_key", "unknown")
-
-        reference_prob_pairs = []
-        reference_odds_list = []
-        candidate_lines = []
-
-        for bookmaker in game.get("bookmakers", []):
-            markets = bookmaker.get("markets")
-            if not markets:
-                continue
-
-            market = markets[0]
-            outcomes = market.get("outcomes", [])
-            prices = _extract_home_away_prices(outcomes, home_team, away_team)
-            if not prices:
-                continue
-
-            odds_home, odds_away = prices
-            prob_home = american_to_prob(odds_home)
-            prob_away = american_to_prob(odds_away)
-            nv_prob_home, nv_prob_away = remove_vig(prob_home, prob_away)
-
-            normalized = _normalize_book_name(bookmaker.get("title"))
-            if normalized in CANDIDATE_BOOKS:
-                title = bookmaker.get("title")
-                candidate_lines.append((title, odds_home, odds_away))
-            else:
-                reference_prob_pairs.append((nv_prob_home, nv_prob_away))
-                reference_odds_list.append((odds_home, odds_away))
-
-        if not candidate_lines:
-            continue
-
-        scan_stats["games_with_candidate_books"] += 1
-
-        if len(reference_prob_pairs) < MIN_REFERENCE_BOOKS:
-            # fallback: use candidate books as reference if reference depth is thin
-            for _, odds_home, odds_away in candidate_lines:
-                prob_home = american_to_prob(odds_home)
-                prob_away = american_to_prob(odds_away)
-                nv_prob_home, nv_prob_away = remove_vig(prob_home, prob_away)
-                reference_prob_pairs.append((nv_prob_home, nv_prob_away))
-                reference_odds_list.append((odds_home, odds_away))
-
-        if len(reference_prob_pairs) < 2:
-            continue
-
-        sharp_probs = sharp_probability(reference_prob_pairs, reference_odds_list)
-        if not sharp_probs:
-            continue
-
-        market_prob_home, market_prob_away = sharp_probs
-        true_prob_home, true_prob_away = market_prob_home, market_prob_away
-        base_blend_prob_away, base_blend_prob_home = market_prob_away, market_prob_home
-        line_signal = 0.0
-        
-        # === HYBRID: TRY TO GET MODEL PREDICTION ===
-        if sport == "baseball_mlb":
-            model_stats["mlb_games_seen"] += 1
-
-        model_pred = get_model_prediction(away_team, home_team, date_str=scan_date)
-        model_prob_pair = None
-        model_source = "market_only"
-
-        # Record snapshots every run so movement works even without model match.
-        for book_title, odds_home, odds_away in candidate_lines:
-            record_line_snapshot(event_id, book_title, odds_away, odds_home)
-
-        # Compute consensus movement across candidate books.
-        line_signal = get_market_line_signal(event_id, candidate_lines)
-        
-        if model_pred:
-            if sport == "baseball_mlb":
-                model_stats["mlb_model_matches"] += 1
-            model_prob_pair = (model_pred["away_win_prob"], model_pred["home_win_prob"])
-            model_source = f"model (rank {model_pred.get('confidence', '?')})"
-            
-            (true_prob_away, true_prob_home), blend_components = calibrated_hybrid_probability(
-                market_prob_pair=(market_prob_away, market_prob_home),
-                model_prob_pair=model_prob_pair,
-                line_signal=line_signal,
-                market_weight=MARKET_WEIGHT,
-                model_weight=MODEL_WEIGHT,
-                line_weight=LINE_WEIGHT,
-                calibration_shrink=CALIBRATION_SHRINK,
-            )
-            base_blend_prob_away = blend_components["base_blend_away"]
-            base_blend_prob_home = blend_components["base_blend_home"]
-        elif sport == "baseball_mlb":
-            model_stats["mlb_model_misses"] += 1
-            model_stats["mlb_missing_matchups"].append(
-                f"{normalize_team_code(away_team)} @ {normalize_team_code(home_team)}"
-            )
-
-        if not model_pred:
-            (true_prob_away, true_prob_home), blend_components = calibrated_hybrid_probability(
-                market_prob_pair=(market_prob_away, market_prob_home),
-                model_prob_pair=None,
-                line_signal=line_signal,
-                market_weight=MARKET_WEIGHT,
-                model_weight=MODEL_WEIGHT,
-                line_weight=LINE_WEIGHT,
-                calibration_shrink=CALIBRATION_SHRINK,
-            )
-            base_blend_prob_away = blend_components["base_blend_away"]
-            base_blend_prob_home = blend_components["base_blend_home"]
-
-        if sport == "baseball_mlb" and require_model_mlb and not model_pred:
-            rejections.append({
-                "game": f"{away_team} vs {home_team}",
-                "sport": sport,
-                "reason": "model_required_for_mlb",
-            })
-            continue
-
-        if model_pred and max_model_rank is not None and model_pred.get("confidence") is not None:
-            if int(model_pred["confidence"]) > int(max_model_rank):
-                rejections.append({
-                    "game": f"{away_team} vs {home_team}",
-                    "sport": sport,
-                    "reason": f"model_rank_above_limit({model_pred['confidence']} > {max_model_rank})",
-                })
-                continue
-        # ===================================
-        
-        home_best_book, home_best_odds, home_dk_odds = _select_best_and_dk_line(
-            candidate_lines, home_team, home_team
-        )
-        away_best_book, away_best_odds, away_dk_odds = _select_best_and_dk_line(
-            candidate_lines, home_team, away_team
-        )
-
-        if home_best_odds is not None:
-            ev_home = calculate_ev(true_prob_home, home_best_odds)
-            implied_home = american_to_prob(home_best_odds)
-            prob_edge_home = true_prob_home - implied_home
-            reject_reason = None
-            if ev_home < ev_threshold:
-                reject_reason = "ev_below_threshold"
-            elif min_edge is not None and prob_edge_home < min_edge:
-                reject_reason = f"prob_edge_below_min({prob_edge_home:.4f} < {min_edge:.4f})"
-            elif home_best_odds >= EXTREME_PLUS_MONEY and (not model_pred or int(model_pred.get("confidence", 99)) > MAX_MODEL_RANK_FOR_EXTREME):
-                reject_reason = "extreme_plus_money_without_strong_model"
-
-            if reject_reason:
-                rejections.append({
-                    "game": f"{away_team} vs {home_team}",
-                    "sport": sport,
-                    "team": home_team,
-                    "ev": ev_home,
-                    "reason": reject_reason,
-                })
-            else:
-                bets.append({
-                    "event_id": event_id,
-                    "commence_time": commence_time,
-                    "ev": ev_home,
-                    "team": home_team,
-                    "odds": home_best_odds,
-                    "book": home_best_book,
-                    "game": f"{away_team} vs {home_team}",
-                    "sport": sport,
-                    "draftkings_odds": home_dk_odds,
-                    "model_source": model_source,
-                    "model_rank": model_pred.get("confidence") if model_pred else None,
-                    "market_prob": market_prob_home,
-                    "model_prob": model_pred.get("home_win_prob") if model_pred else None,
-                    "base_blend_prob": base_blend_prob_home,
-                    "line_signal": line_signal,
-                    "final_prob": true_prob_home,
-                    "implied_prob": implied_home,
-                    "probability_edge": prob_edge_home,
-                })
-
-        if away_best_odds is not None:
-            ev_away = calculate_ev(true_prob_away, away_best_odds)
-            implied_away = american_to_prob(away_best_odds)
-            prob_edge_away = true_prob_away - implied_away
-            reject_reason = None
-            if ev_away < ev_threshold:
-                reject_reason = "ev_below_threshold"
-            elif min_edge is not None and prob_edge_away < min_edge:
-                reject_reason = f"prob_edge_below_min({prob_edge_away:.4f} < {min_edge:.4f})"
-            elif away_best_odds >= EXTREME_PLUS_MONEY and (not model_pred or int(model_pred.get("confidence", 99)) > MAX_MODEL_RANK_FOR_EXTREME):
-                reject_reason = "extreme_plus_money_without_strong_model"
-
-            if reject_reason:
-                rejections.append({
-                    "game": f"{away_team} vs {home_team}",
-                    "sport": sport,
-                    "team": away_team,
-                    "ev": ev_away,
-                    "reason": reject_reason,
-                })
-            else:
-                bets.append({
-                    "event_id": event_id,
-                    "commence_time": commence_time,
-                    "ev": ev_away,
-                    "team": away_team,
-                    "odds": away_best_odds,
-                    "book": away_best_book,
-                    "game": f"{away_team} vs {home_team}",
-                    "sport": sport,
-                    "draftkings_odds": away_dk_odds,
-                    "model_source": model_source,
-                    "model_rank": model_pred.get("confidence") if model_pred else None,
-                    "market_prob": market_prob_away,
-                    "model_prob": model_pred.get("away_win_prob") if model_pred else None,
-                    "base_blend_prob": base_blend_prob_away,
-                    "line_signal": line_signal,
-                    "final_prob": true_prob_away,
-                    "implied_prob": implied_away,
-                    "probability_edge": prob_edge_away,
-                })
-
-    if not bets:
-        print(f"Scan Date ({REPORT_TIMEZONE.key}): {scan_date}")
-        print("No bets found at or above EV floor.")
-        print(f"Model rows available for {scan_date}: {model_rows_for_date}")
-        print(
-            "Feed stats: "
-            f"games={scan_stats['games_from_feed']} | "
-            f"qualifying_window={scan_stats['games_qualifying_window']} | "
-            f"on_scan_date={scan_stats['games_on_scan_date']} | "
-            f"with_candidate_books={scan_stats['games_with_candidate_books']}"
-        )
-        if show_rejections and rejections:
-            print("")
-            print("===== Top Rejections =====")
-            for row in sorted(rejections, key=lambda x: x.get("ev", -999), reverse=True)[:10]:
-                game = row.get("game")
-                team = row.get("team")
-                ev = row.get("ev")
-                ev_str = "n/a" if ev is None else f"EV {ev * 100:.2f}%"
-                print(f"{game} ({row.get('sport')}) | {team} | {ev_str} | {row.get('reason')}")
-        return
-
-    if one_per_game:
-        bets = _pick_best_per_game(bets)
-
-    # Sort by sport priority, then EV descending inside each sport.
-    bets.sort(key=lambda x: (_sport_priority(x.get("sport")), -x["ev"]))
-
+def _print_results(
+    bets: List[Dict[str, Any]], 
+    rejections: List[Dict[str, Any]], 
+    scan_date: str, 
+    ev_threshold: float, 
+    model_stats: Dict[str, Any], 
+    model_rows_for_date: int, 
+    explain: bool, 
+    show_rejections: bool, 
+    min_edge: Optional[float]
+) -> None:
     avg_ev = sum(b["ev"] for b in bets) / len(bets)
     avg_edge = sum(float(b.get("probability_edge") or 0.0) for b in bets) / len(bets)
 
@@ -569,6 +290,268 @@ def find_ev_bets(
             ev_str = "n/a" if ev_val is None else f"{ev_val * 100:.2f}%"
             print(f"{row.get('game')} ({row.get('sport')}) | {team} | EV {ev_str} | {row.get('reason')}")
         print("")
+
+
+def find_ev_bets(
+    scan_date: Optional[str] = None,
+    explain: bool = False,
+    positive_only: bool = False,
+    one_per_game: bool = True,
+    min_edge: Optional[float] = MIN_PROBABILITY_EDGE,
+    require_model_mlb: bool = REQUIRE_MODEL_FOR_MLB,
+    max_model_rank: Optional[int] = MAX_MODEL_RANK,
+    show_rejections: bool = False,
+    diagnostics: bool = False,
+    enforce_model_rows: bool = False,
+    min_model_rows: int = MIN_MODEL_ROWS_FOR_DATE,
+) -> None:
+    if scan_date is None:
+        scan_date = datetime.now(REPORT_TIMEZONE).date().isoformat()
+
+    ev_threshold = 0.0001 if positive_only else EV_FLOOR
+
+    data = get_odds()
+
+    if not data:
+        print("No data returned")
+        return
+
+    qualifying_games = [g for g in data if _is_real_matchup(g)]
+    available_dates = sorted({d for d in (_local_game_date(g) for g in qualifying_games) if d})
+
+    auto_fallback_scan_date = False
+    games_for_scan_date = [g for g in qualifying_games if _on_scan_date(g, scan_date)]
+    if not games_for_scan_date and available_dates:
+        nearest_dates = [d for d in available_dates if d >= scan_date]
+        fallback_date = nearest_dates[0] if nearest_dates else available_dates[-1]
+        if fallback_date != scan_date:
+            print(
+                f"No qualifying games found for requested date {scan_date}. "
+                f"Using nearest available date {fallback_date}."
+            )
+            scan_date = fallback_date
+            auto_fallback_scan_date = True
+            games_for_scan_date = [g for g in qualifying_games if _on_scan_date(g, scan_date)]
+
+    if not games_for_scan_date:
+        print(f"Scan Date ({REPORT_TIMEZONE.key}): {scan_date}")
+        print("No qualifying games available from odds feed for this date window.")
+        return
+
+    bets = []
+    rejections = []
+    scan_stats = {
+        "games_from_feed": len(data),
+        "games_qualifying_window": len(qualifying_games),
+        "games_on_scan_date": len(games_for_scan_date),
+        "games_with_candidate_books": 0,
+    }
+    model_stats = {
+        "mlb_games_seen": 0,
+        "mlb_model_matches": 0,
+        "mlb_model_misses": 0,
+        "mlb_missing_matchups": [],
+    }
+
+    model_rows_for_date = model_predictions_count(scan_date)
+
+    if enforce_model_rows and model_rows_for_date < min_model_rows:
+        if auto_fallback_scan_date:
+            print(
+                f"Model rows for fallback scan date {scan_date}: {model_rows_for_date}. "
+                "Continuing in market-only mode for this run."
+            )
+            require_model_mlb = False
+        else:
+            print(f"Scan Date ({REPORT_TIMEZONE.key}): {scan_date}")
+            print(
+                f"ABORTED: strict run requires at least {min_model_rows} model rows for date, "
+                f"found {model_rows_for_date}."
+            )
+            print("Action: load today model picks first, then rerun production profile.")
+            return
+
+    for game in games_for_scan_date:
+        event_id = game.get("id")
+        commence_time = game.get("commence_time")
+        home_team = game.get("home_team")
+        away_team = game.get("away_team")
+        sport = game.get("sport_key", "unknown")
+
+        reference_prob_pairs = []
+        reference_odds_list = []
+        candidate_lines = []
+
+        for bookmaker in game.get("bookmakers", []):
+            markets = bookmaker.get("markets")
+            if not markets:
+                continue
+
+            market = markets[0]
+            outcomes = market.get("outcomes", [])
+            prices = _extract_home_away_prices(outcomes, home_team, away_team)
+            if not prices:
+                continue
+
+            odds_home, odds_away = prices
+            prob_home = american_to_prob(odds_home)
+            prob_away = american_to_prob(odds_away)
+            nv_prob_home, nv_prob_away = remove_vig(prob_home, prob_away)
+
+            normalized = _normalize_book_name(bookmaker.get("title"))
+            if normalized in CANDIDATE_BOOKS:
+                title = bookmaker.get("title")
+                candidate_lines.append((title, odds_home, odds_away))
+            else:
+                reference_prob_pairs.append((nv_prob_home, nv_prob_away))
+                reference_odds_list.append((odds_home, odds_away))
+
+        if not candidate_lines:
+            continue
+
+        scan_stats["games_with_candidate_books"] += 1
+
+        if len(reference_prob_pairs) < MIN_REFERENCE_BOOKS:
+            for _, odds_home, odds_away in candidate_lines:
+                prob_home = american_to_prob(odds_home)
+                prob_away = american_to_prob(odds_away)
+                nv_prob_home, nv_prob_away = remove_vig(prob_home, prob_away)
+                reference_prob_pairs.append((nv_prob_home, nv_prob_away))
+                reference_odds_list.append((odds_home, odds_away))
+
+        if len(reference_prob_pairs) < 2:
+            continue
+
+        sharp_probs = sharp_probability(reference_prob_pairs, reference_odds_list)
+        if not sharp_probs:
+            continue
+
+        market_prob_home, market_prob_away = sharp_probs
+        
+        if sport == "baseball_mlb":
+            model_stats["mlb_games_seen"] += 1
+
+        model_pred = get_model_prediction(away_team, home_team, date_str=scan_date)
+        model_prob_pair = None
+        model_source = "market_only"
+
+        for book_title, odds_home, odds_away in candidate_lines:
+            record_line_snapshot(event_id, book_title, odds_away, odds_home)
+
+        line_signal = get_market_line_signal(event_id, candidate_lines)
+        
+        if model_pred:
+            if sport == "baseball_mlb":
+                model_stats["mlb_model_matches"] += 1
+            model_prob_pair = (model_pred["away_win_prob"], model_pred["home_win_prob"])
+            model_source = f"model (rank {model_pred.get('confidence', '?')})"
+        elif sport == "baseball_mlb":
+            model_stats["mlb_model_misses"] += 1
+            model_stats["mlb_missing_matchups"].append(
+                f"{normalize_team_code(away_team)} @ {normalize_team_code(home_team)}"
+            )
+
+        (true_prob_away, true_prob_home), blend_components = calibrated_hybrid_probability(
+            market_prob_pair=(market_prob_away, market_prob_home),
+            model_prob_pair=model_prob_pair,
+            line_signal=line_signal,
+            market_weight=MARKET_WEIGHT,
+            model_weight=MODEL_WEIGHT,
+            line_weight=LINE_WEIGHT,
+            calibration_shrink=CALIBRATION_SHRINK,
+        )
+        base_blend_prob_away = blend_components["base_blend_away"]
+        base_blend_prob_home = blend_components["base_blend_home"]
+
+        if sport == "baseball_mlb" and require_model_mlb and not model_pred:
+            rejections.append({
+                "game": f"{away_team} vs {home_team}",
+                "sport": sport,
+                "reason": "model_required_for_mlb",
+            })
+            continue
+
+        if model_pred and max_model_rank is not None and model_pred.get("confidence") is not None:
+            if int(model_pred["confidence"]) > int(max_model_rank):
+                rejections.append({
+                    "game": f"{away_team} vs {home_team}",
+                    "sport": sport,
+                    "reason": f"model_rank_above_limit({model_pred['confidence']} > {max_model_rank})",
+                })
+                continue
+        
+        home_best_book, home_best_odds, home_dk_odds = _select_best_and_dk_line(
+            candidate_lines, home_team, home_team
+        )
+        away_best_book, away_best_odds, away_dk_odds = _select_best_and_dk_line(
+            candidate_lines, home_team, away_team
+        )
+
+        game_info = {
+            "event_id": event_id,
+            "commence_time": commence_time,
+            "game_str": f"{away_team} vs {home_team}",
+            "sport": sport,
+        }
+
+        if home_best_odds is not None:
+            prob_info = {
+                "model_source": model_source,
+                "market_prob": market_prob_home,
+                "model_prob": model_pred.get("home_win_prob") if model_pred else None,
+                "base_blend_prob": base_blend_prob_home,
+                "line_signal": line_signal,
+            }
+            bet, rejection = _evaluate_bet(
+                home_team, true_prob_home, home_best_odds, home_best_book, home_dk_odds,
+                ev_threshold, min_edge, model_pred, game_info, prob_info
+            )
+            if bet: bets.append(bet)
+            if rejection: rejections.append(rejection)
+
+        if away_best_odds is not None:
+            prob_info = {
+                "model_source": model_source,
+                "market_prob": market_prob_away,
+                "model_prob": model_pred.get("away_win_prob") if model_pred else None,
+                "base_blend_prob": base_blend_prob_away,
+                "line_signal": line_signal,
+            }
+            bet, rejection = _evaluate_bet(
+                away_team, true_prob_away, away_best_odds, away_best_book, away_dk_odds,
+                ev_threshold, min_edge, model_pred, game_info, prob_info
+            )
+            if bet: bets.append(bet)
+            if rejection: rejections.append(rejection)
+
+    if not bets:
+        print(f"Scan Date ({REPORT_TIMEZONE.key}): {scan_date}")
+        print("No bets found at or above EV floor.")
+        print(f"Model rows available for {scan_date}: {model_rows_for_date}")
+        print(
+            "Feed stats: "
+            f"games={scan_stats['games_from_feed']} | "
+            f"qualifying_window={scan_stats['games_qualifying_window']} | "
+            f"on_scan_date={scan_stats['games_on_scan_date']} | "
+            f"with_candidate_books={scan_stats['games_with_candidate_books']}"
+        )
+        if show_rejections and rejections:
+            print("")
+            print("===== Top Rejections =====")
+            for row in sorted(rejections, key=lambda x: x.get("ev", -999), reverse=True)[:10]:
+                game = row.get("game")
+                team = row.get("team")
+                ev = row.get("ev")
+                ev_str = "n/a" if ev is None else f"EV {ev * 100:.2f}%"
+                print(f"{game} ({row.get('sport')}) | {team} | {ev_str} | {row.get('reason')}")
+        return
+
+    if one_per_game:
+        bets = _pick_best_per_game(bets)
+
+    bets.sort(key=lambda x: (_sport_priority(x.get("sport")), -x["ev"]))
+
+    _print_results(bets, rejections, scan_date, ev_threshold, model_stats, model_rows_for_date, explain, show_rejections, min_edge)
 
     inserted = append_new_picks(bets)
     graded = grade_pending_picks()

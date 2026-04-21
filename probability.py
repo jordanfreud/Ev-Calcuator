@@ -1,39 +1,38 @@
+import statistics
+from typing import List, Tuple, Dict, Optional, Any
 
-import numpy as np
-
-
-def _clamp01(value):
+def _clamp01(value: float) -> float:
     return max(0.0, min(1.0, value))
 
-def american_to_prob(odds):
+def american_to_prob(odds: float) -> float:
     if odds > 0:
         return 100 / (odds + 100)
     else:
         return -odds / (-odds + 100)
 
-def remove_vig(prob1, prob2):
+def remove_vig(prob1: float, prob2: float) -> Tuple[float, float]:
     total = prob1 + prob2
     if total == 0:
         return 0.5, 0.5
     return prob1 / total, prob2 / total
 
-def calculate_vig(prob1, prob2):
+def calculate_vig(prob1: float, prob2: float) -> float:
     return (prob1 + prob2) - 1
 
-def sharp_probability(prob_pairs, odds_list):
+def sharp_probability(prob_pairs: List[Tuple[float, float]], odds_list: List[Tuple[float, float]]) -> Optional[Tuple[float, float]]:
     """
     prob_pairs: [(p1, p2), (p1, p2), ...] AFTER vig removal
     odds_list: [(odds1, odds2), ...]
     """
     if len(prob_pairs) < 2:
-        return None, None
+        return None
 
     # --- Layer 1: Median ---
     probs1 = [p1 for p1, _ in prob_pairs]
     probs2 = [p2 for _, p2 in prob_pairs]
 
-    median1 = np.median(probs1)
-    median2 = np.median(probs2)
+    median1 = statistics.median(probs1)
+    median2 = statistics.median(probs2)
 
     # --- Layer 2: Low-vig weighted ---
     weights = []
@@ -48,14 +47,15 @@ def sharp_probability(prob_pairs, odds_list):
             continue
         weight = 1 / vig
         weights.append(weight)
-        weighted_probs1.append(p1)
-        weighted_probs2.append(p2)
+        weighted_probs1.append(p1 * weight)
+        weighted_probs2.append(p2 * weight)
 
     if not weights:
         return median1, median2
 
-    weighted1 = np.average(weighted_probs1, weights=weights)
-    weighted2 = np.average(weighted_probs2, weights=weights)
+    total_weight = sum(weights)
+    weighted1 = sum(weighted_probs1) / total_weight
+    weighted2 = sum(weighted_probs2) / total_weight
 
     # --- Layer 3: Best price signal ---
     best_odds1 = max(o[0] for o in odds_list)
@@ -71,72 +71,15 @@ def sharp_probability(prob_pairs, odds_list):
     # normalize again just to be safe
     return remove_vig(sharp1, sharp2)
 
-
-def hybrid_probability(market_prob_pair, model_prob_pair=None, line_signal=0.0):
-    """
-    Blend market probability with model prediction and line movement signal.
-    
-    The hybrid approach combines three sources:
-    - 60% Market probability (consensus from sharp books)
-    - 30% Model probability (external model like friend's discord picks)
-    - 10% Line movement bonus (confidence from sharp money movement)
-    
-    Args:
-        market_prob_pair: (prob_away, prob_home) from sharp_probability()
-        model_prob_pair: (prob_away, prob_home) or None if not available
-        line_signal: Confidence boost from line movement (0.0 to 0.05)
-    
-    Returns:
-        (final_prob_away, final_prob_home) normalized to sum to 1.0
-    """
-    market_away, market_home = market_prob_pair
-    
-    # If no model available, just use market
-    if model_prob_pair is None:
-        return market_away, market_home
-    
-    model_away, model_home = model_prob_pair
-    
-    # Base blend: 60% market + 30% model
-    blend_away = (0.6 * market_away) + (0.3 * model_away)
-    blend_home = (0.6 * market_home) + (0.3 * model_home)
-    
-    # Normalize blend
-    total = blend_away + blend_home
-    if total > 0:
-        blend_away /= total
-        blend_home /= total
-    
-    # Apply line signal as confidence boost
-    # If line moved in agreement with model, boost that side
-    if line_signal > 0:
-        # Boost the stronger side by up to 10% of the signal
-        line_boost = 0.1 * line_signal
-        if blend_away > blend_home:
-            blend_away = min(1.0, blend_away + line_boost)
-            blend_home = 1.0 - blend_away
-        else:
-            blend_home = min(1.0, blend_home + line_boost)
-            blend_away = 1.0 - blend_home
-    
-    # Final normalization
-    total = blend_away + blend_home
-    if total > 0:
-        blend_away /= total
-        blend_home /= total
-    
-    return blend_away, blend_home
-
-
 def calibrated_hybrid_probability(
-    market_prob_pair,
-    model_prob_pair=None,
-    line_signal=0.0,
-    market_weight=0.60,
-    model_weight=0.30,
-    line_weight=0.10,
-    calibration_shrink=0.05,
-):
+    market_prob_pair: Tuple[float, float],
+    model_prob_pair: Optional[Tuple[float, float]] = None,
+    line_signal: float = 0.0,
+    market_weight: float = 0.60,
+    model_weight: float = 0.30,
+    line_weight: float = 0.10,
+    calibration_shrink: float = 0.05,
+) -> Tuple[Tuple[float, float], Dict[str, float]]:
     """
     Calibrated blend for production use.
 
