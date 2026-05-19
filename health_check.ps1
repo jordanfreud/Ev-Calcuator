@@ -35,7 +35,9 @@ try {
         }
     }
 
-    $collectorTask = schtasks /Query /TN EVCollectorHourly /FO LIST 2>$null | Out-String
+    $collector1Task = schtasks /Query /TN EVCollector0800 /FO LIST 2>$null | Out-String
+    $collector2Task = schtasks /Query /TN EVCollector1200 /FO LIST 2>$null | Out-String
+    $collector3Task = schtasks /Query /TN EVCollector1700 /FO LIST 2>$null | Out-String
     $scan1Task = schtasks /Query /TN EVScan1100 /FO LIST 2>$null | Out-String
     $scan2Task = schtasks /Query /TN EVScan1700 /FO LIST 2>$null | Out-String
 
@@ -53,10 +55,13 @@ try {
 
     Write-Host ""
     Write-Host "Tasks:"
-    if ($collectorTask -match "Next Run Time:\s*(.+)") {
-        Write-Host "- EVCollectorHourly next run: $($Matches[1])"
-    } else {
-        Write-Host "- EVCollectorHourly: missing"
+    foreach ($taskName in @("EVCollector0800", "EVCollector1200", "EVCollector1700")) {
+        $taskOut = schtasks /Query /TN $taskName /FO LIST 2>$null | Out-String
+        if ($taskOut -match "Next Run Time:\s*(.+)") {
+            Write-Host "- $taskName next run: $($Matches[1])"
+        } else {
+            Write-Host "- $taskName: missing"
+        }
     }
     if ($scan1Task -match "Next Run Time:\s*(.+)") {
         Write-Host "- EVScan1100 next run: $($Matches[1])"

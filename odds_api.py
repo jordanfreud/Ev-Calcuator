@@ -1,5 +1,6 @@
 ﻿import os
 from datetime import datetime, timezone, timedelta
+from typing import List, Optional
 
 import requests
 
@@ -351,13 +352,14 @@ def _get_scores_rundown() -> dict:
 # Public API (unchanged signatures)                                            #
 # --------------------------------------------------------------------------- #
 
-def get_odds():
+def get_odds(sports_filter: Optional[List[str]] = None):
     global _odds_api_quota_exhausted
     all_games = []
     api_key = _get_api_key()
+    sports_to_fetch = sports_filter if sports_filter else SPORTS
 
     if not _odds_api_quota_exhausted and api_key:
-        for sport in SPORTS:
+        for sport in sports_to_fetch:
             url = f"https://api.the-odds-api.com/v4/sports/{sport}/odds"
             params = {
                 "apiKey": api_key,
@@ -389,7 +391,7 @@ def get_odds():
 
     print("[Rundown] Using fallback provider for odds.")
     today = datetime.now(timezone.utc).date()
-    for sport in SPORTS:
+    for sport in sports_to_fetch:
         for day_offset in range(3):
             date_str = (today + timedelta(days=day_offset)).isoformat()
             all_games.extend(_get_odds_rundown(sport, date_str))
@@ -397,14 +399,15 @@ def get_odds():
     return all_games
 
 
-def get_scores(days_from=3):
+def get_scores(days_from=3, sports_filter: Optional[List[str]] = None):
     """Fetch score snapshots for supported sports keyed by event id."""
     global _odds_api_quota_exhausted
     scores_by_id = {}
     api_key = _get_api_key()
+    sports_to_fetch = sports_filter if sports_filter else SPORTS
 
     if not _odds_api_quota_exhausted and api_key:
-        for sport in SPORTS:
+        for sport in sports_to_fetch:
             url = f"https://api.the-odds-api.com/v4/sports/{sport}/scores"
             params = {
                 "apiKey": api_key,
